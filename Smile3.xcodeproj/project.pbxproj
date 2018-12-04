@@ -15,6 +15,421 @@
 		AA09E0F621B64DA800611CD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA09E0F521B64DA800611CD9 /* main.m */; };
 		AA09E10021B64DA800611CD9 /* Smile3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA09E0FF21B64DA800611CD9 /* Smile3Tests.m */; };
 		AA09E10B21B64DA800611CD9 /* Smile3UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA09E10A21B64DA800611CD9 /* Smile3UITests.m */; };
+		AA09E2C521B64DC600611CD9 /* 关于我们.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E11B21B64DC500611CD9 /* 关于我们.png */; };
+		AA09E2C621B64DC600611CD9 /* 手机注册.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E11C21B64DC500611CD9 /* 手机注册.png */; };
+		AA09E2C721B64DC600611CD9 /* 实名认证.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E11D21B64DC500611CD9 /* 实名认证.png */; };
+		AA09E2C821B64DC600611CD9 /* 我要申诉.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E11E21B64DC500611CD9 /* 我要申诉.png */; };
+		AA09E2C921B64DC600611CD9 /* 登录.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E11F21B64DC500611CD9 /* 登录.png */; };
+		AA09E2CA21B64DC600611CD9 /* 交易记录_未完成.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E12021B64DC500611CD9 /* 交易记录_未完成.png */; };
+		AA09E2CB21B64DC600611CD9 /* 公告.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E12121B64DC500611CD9 /* 公告.png */; };
+		AA09E2CC21B64DC600611CD9 /* 修改绑定邮箱-2.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E12221B64DC500611CD9 /* 修改绑定邮箱-2.png */; };
+		AA09E2CD21B64DC600611CD9 /* 资讯内容.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E12321B64DC500611CD9 /* 资讯内容.png */; };
+		AA09E2CE21B64DC600611CD9 /* 资产.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E12421B64DC500611CD9 /* 资产.png */; };
+		AA09E2CF21B64DC600611CD9 /* 推荐返佣.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E12521B64DC500611CD9 /* 推荐返佣.png */; };
+		AA09E2D021B64DC600611CD9 /* 成交明细.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E12621B64DC500611CD9 /* 成交明细.png */; };
+		AA09E2D121B64DC600611CD9 /* 买出.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E12721B64DC500611CD9 /* 买出.png */; };
+		AA09E2D221B64DC600611CD9 /* 指纹验证.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E12821B64DC500611CD9 /* 指纹验证.png */; };
+		AA09E2D321B64DC600611CD9 /* 历史委托.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E12921B64DC500611CD9 /* 历史委托.png */; };
+		AA09E2D421B64DC600611CD9 /* 法币_交易单.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E12A21B64DC500611CD9 /* 法币_交易单.png */; };
+		AA09E2D521B64DC600611CD9 /* 安全验证.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E12B21B64DC500611CD9 /* 安全验证.png */; };
+		AA09E2D621B64DC600611CD9 /* 搜索.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E12C21B64DC500611CD9 /* 搜索.png */; };
+		AA09E2D721B64DC600611CD9 /* 法币_选择币种.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E12D21B64DC500611CD9 /* 法币_选择币种.png */; };
+		AA09E2D821B64DC600611CD9 /* 当前委托.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E12E21B64DC500611CD9 /* 当前委托.png */; };
+		AA09E2D921B64DC600611CD9 /* 行情交易.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E12F21B64DC500611CD9 /* 行情交易.png */; };
+		AA09E2DA21B64DC600611CD9 /* 安全中心.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E13021B64DC500611CD9 /* 安全中心.png */; };
+		AA09E2DB21B64DC600611CD9 /* 修改绑定邮箱.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E13121B64DC500611CD9 /* 修改绑定邮箱.png */; };
+		AA09E2DC21B64DC600611CD9 /* 发布交易-我要出售.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E13221B64DC500611CD9 /* 发布交易-我要出售.png */; };
+		AA09E2DD21B64DC600611CD9 /* 账单.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E13321B64DC500611CD9 /* 账单.png */; };
+		AA09E2DE21B64DC600611CD9 /* 卖家订单详情-对方已支付.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E13421B64DC500611CD9 /* 卖家订单详情-对方已支付.png */; };
+		AA09E2DF21B64DC600611CD9 /* K线图.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E13521B64DC500611CD9 /* K线图.png */; };
+		AA09E2E021B64DC600611CD9 /* 返佣记录.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E13621B64DC500611CD9 /* 返佣记录.png */; };
+		AA09E2E121B64DC600611CD9 /* 首页.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E13721B64DC500611CD9 /* 首页.png */; };
+		AA09E2E221B64DC600611CD9 /* 我的.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E13821B64DC500611CD9 /* 我的.png */; };
+		AA09E2E321B64DC600611CD9 /* 法币_购买.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E13921B64DC500611CD9 /* 法币_购买.png */; };
+		AA09E2E421B64DC600611CD9 /* 法币_确认购买.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E13A21B64DC500611CD9 /* 法币_确认购买.png */; };
+		AA09E2E521B64DC600611CD9 /* 邮箱注册_拼图验证.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E13B21B64DC500611CD9 /* 邮箱注册_拼图验证.png */; };
+		AA09E2E621B64DC600611CD9 /* 资讯.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E13C21B64DC500611CD9 /* 资讯.png */; };
+		AA09E2E721B64DC600611CD9 /* 公告内容.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E13D21B64DC500611CD9 /* 公告内容.png */; };
+		AA09E2E821B64DC600611CD9 /* ic_login_close_eye.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E14021B64DC500611CD9 /* ic_login_close_eye.png */; };
+		AA09E2E921B64DC600611CD9 /* ic_tab_mine_default.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E14121B64DC500611CD9 /* ic_tab_mine_default.png */; };
+		AA09E2EA21B64DC600611CD9 /* ic_nav_back_black.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E14221B64DC500611CD9 /* ic_nav_back_black.png */; };
+		AA09E2EB21B64DC600611CD9 /* tag_vip.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E14321B64DC500611CD9 /* tag_vip.png */; };
+		AA09E2EC21B64DC600611CD9 /* ic_tab_deal_default.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E14421B64DC500611CD9 /* ic_tab_deal_default.png */; };
+		AA09E2ED21B64DC600611CD9 /* tag_corner_mark_default.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E14521B64DC500611CD9 /* tag_corner_mark_default.png */; };
+		AA09E2EE21B64DC600611CD9 /* nav_tag_corner_mark.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E14621B64DC500611CD9 /* nav_tag_corner_mark.png */; };
+		AA09E2EF21B64DC600611CD9 /* ic_tab_home_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E14721B64DC500611CD9 /* ic_tab_home_pressed.png */; };
+		AA09E2F021B64DC600611CD9 /* ic_login_area_next.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E14821B64DC500611CD9 /* ic_login_area_next.png */; };
+		AA09E2F121B64DC600611CD9 /* nav_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E14921B64DC500611CD9 /* nav_logo.png */; };
+		AA09E2F221B64DC600611CD9 /* ic_invisible.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E14A21B64DC500611CD9 /* ic_invisible.png */; };
+		AA09E2F321B64DC600611CD9 /* tag_red.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E14B21B64DC500611CD9 /* tag_red.png */; };
+		AA09E2F421B64DC600611CD9 /* ic_tab_legal_tender_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E14C21B64DC500611CD9 /* ic_tab_legal_tender_pressed.png */; };
+		AA09E2F521B64DC600611CD9 /* btn_id_front.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E14D21B64DC500611CD9 /* btn_id_front.png */; };
+		AA09E2F621B64DC600611CD9 /* ic_home_trumpet.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E14E21B64DC500611CD9 /* ic_home_trumpet.png */; };
+		AA09E2F721B64DC600611CD9 /* referee_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E14F21B64DC500611CD9 /* referee_bg.png */; };
+		AA09E2F821B64DC600611CD9 /* ic_add.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E15021B64DC500611CD9 /* ic_add.png */; };
+		AA09E2F921B64DC600611CD9 /* btn_id_rear.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E15121B64DC500611CD9 /* btn_id_rear.png */; };
+		AA09E2FA21B64DC600611CD9 /* ic_login_close.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E15221B64DC500611CD9 /* ic_login_close.png */; };
+		AA09E2FB21B64DC600611CD9 /* ic_center_notice.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E15321B64DC500611CD9 /* ic_center_notice.png */; };
+		AA09E2FC21B64DC600611CD9 /* ic_login_open_eye.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E15421B64DC500611CD9 /* ic_login_open_eye.png */; };
+		AA09E2FD21B64DC600611CD9 /* ic_tab_legal_tender_default.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E15521B64DC500611CD9 /* ic_tab_legal_tender_default.png */; };
+		AA09E2FE21B64DC600611CD9 /* ic_nav_home.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E15621B64DC500611CD9 /* ic_nav_home.png */; };
+		AA09E2FF21B64DC600611CD9 /* tag_indexes_up.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E15721B64DC500611CD9 /* tag_indexes_up.png */; };
+		AA09E30021B64DC600611CD9 /* face_id.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E15821B64DC500611CD9 /* face_id.png */; };
+		AA09E30121B64DC600611CD9 /* ic_tab_mine_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E15921B64DC500611CD9 /* ic_tab_mine_pressed.png */; };
+		AA09E30221B64DC600611CD9 /* ic_delete.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E15A21B64DC500611CD9 /* ic_delete.png */; };
+		AA09E30321B64DC600611CD9 /* tag_indexes_down.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E15B21B64DC500611CD9 /* tag_indexes_down.png */; };
+		AA09E30421B64DC600611CD9 /* tag_wechat_pay.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E15C21B64DC500611CD9 /* tag_wechat_pay.png */; };
+		AA09E30521B64DC600611CD9 /* ic_tab_home_default.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E15D21B64DC500611CD9 /* ic_tab_home_default.png */; };
+		AA09E30621B64DC600611CD9 /* tag_corner_mark_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E15E21B64DC500611CD9 /* tag_corner_mark_pressed.png */; };
+		AA09E30721B64DC600611CD9 /* ic_tab_deal_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E15F21B64DC500611CD9 /* ic_tab_deal_pressed.png */; };
+		AA09E30821B64DC600611CD9 /* add_pictures.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E16021B64DC500611CD9 /* add_pictures.png */; };
+		AA09E30921B64DC600611CD9 /* tag_bank_card.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E16121B64DC500611CD9 /* tag_bank_card.png */; };
+		AA09E30A21B64DC600611CD9 /* ic_refresh_login.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E16221B64DC500611CD9 /* ic_refresh_login.png */; };
+		AA09E30B21B64DC600611CD9 /* ic_login_check_default.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E16321B64DC500611CD9 /* ic_login_check_default.png */; };
+		AA09E30C21B64DC600611CD9 /* ic_nav_search.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E16421B64DC500611CD9 /* ic_nav_search.png */; };
+		AA09E30D21B64DC600611CD9 /* fingerprint.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E16521B64DC500611CD9 /* fingerprint.png */; };
+		AA09E30E21B64DC600611CD9 /* ic_search_coin.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E16621B64DC500611CD9 /* ic_search_coin.png */; };
+		AA09E30F21B64DC600611CD9 /* ic_audit_succeed.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E16721B64DC500611CD9 /* ic_audit_succeed.png */; };
+		AA09E31021B64DC600611CD9 /* update_title.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E16821B64DC500611CD9 /* update_title.png */; };
+		AA09E31121B64DC600611CD9 /* ic_nav_back_white.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E16921B64DC500611CD9 /* ic_nav_back_white.png */; };
+		AA09E31221B64DC600611CD9 /* ic_visible.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E16A21B64DC500611CD9 /* ic_visible.png */; };
+		AA09E31321B64DC600611CD9 /* ic_tab_wallet_default.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E16B21B64DC500611CD9 /* ic_tab_wallet_default.png */; };
+		AA09E31421B64DC600611CD9 /* ic_center_payment.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E16C21B64DC500611CD9 /* ic_center_payment.png */; };
+		AA09E31521B64DC600611CD9 /* ic_delete_coin.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E16D21B64DC500611CD9 /* ic_delete_coin.png */; };
+		AA09E31621B64DC600611CD9 /* ic_nav_trading_record.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E16E21B64DC500611CD9 /* ic_nav_trading_record.png */; };
+		AA09E31721B64DC600611CD9 /* ic_scan.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E16F21B64DC500611CD9 /* ic_scan.png */; };
+		AA09E31821B64DC600611CD9 /* ic_logo_about.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E17021B64DC500611CD9 /* ic_logo_about.png */; };
+		AA09E31921B64DC600611CD9 /* tag_sale.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E17121B64DC500611CD9 /* tag_sale.png */; };
+		AA09E31A21B64DC600611CD9 /* ic_tab_wallet_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E17221B64DC500611CD9 /* ic_tab_wallet_pressed.png */; };
+		AA09E31B21B64DC600611CD9 /* tag_alipay.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E17321B64DC500611CD9 /* tag_alipay.png */; };
+		AA09E31C21B64DC600611CD9 /* wallet-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E17421B64DC500611CD9 /* wallet-bg.png */; };
+		AA09E31D21B64DC600611CD9 /* ic_slide_login.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E17521B64DC500611CD9 /* ic_slide_login.png */; };
+		AA09E31E21B64DC600611CD9 /* ic_nav_k_line.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E17621B64DC500611CD9 /* ic_nav_k_line.png */; };
+		AA09E31F21B64DC600611CD9 /* tag_buy.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E17721B64DC500611CD9 /* tag_buy.png */; };
+		AA09E32021B64DC600611CD9 /* btn_id_front_sign.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E17821B64DC500611CD9 /* btn_id_front_sign.png */; };
+		AA09E32121B64DC600611CD9 /* ic_login_check_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E17921B64DC500611CD9 /* ic_login_check_pressed.png */; };
+		AA09E32221B64DC600611CD9 /* ic_center_about.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E17A21B64DC500611CD9 /* ic_center_about.png */; };
+		AA09E32321B64DC600611CD9 /* tag_green.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E17B21B64DC500611CD9 /* tag_green.png */; };
+		AA09E32421B64DC600611CD9 /* ic_center_security.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E17C21B64DC500611CD9 /* ic_center_security.png */; };
+		AA09E32521B64DC600611CD9 /* ic_center_rebates.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E17D21B64DC500611CD9 /* ic_center_rebates.png */; };
+		AA09E32621B64DC600611CD9 /* ic_login_close_eye.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E17F21B64DC500611CD9 /* ic_login_close_eye.png */; };
+		AA09E32721B64DC600611CD9 /* ic_tab_mine_default.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E18021B64DC500611CD9 /* ic_tab_mine_default.png */; };
+		AA09E32821B64DC600611CD9 /* ic_nav_back_black.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E18121B64DC500611CD9 /* ic_nav_back_black.png */; };
+		AA09E32921B64DC600611CD9 /* tag_vip.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E18221B64DC500611CD9 /* tag_vip.png */; };
+		AA09E32A21B64DC600611CD9 /* ic_tab_deal_default.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E18321B64DC500611CD9 /* ic_tab_deal_default.png */; };
+		AA09E32B21B64DC600611CD9 /* tag_corner_mark_default.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E18421B64DC500611CD9 /* tag_corner_mark_default.png */; };
+		AA09E32C21B64DC600611CD9 /* nav_tag_corner_mark.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E18521B64DC500611CD9 /* nav_tag_corner_mark.png */; };
+		AA09E32D21B64DC600611CD9 /* ic_tab_home_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E18621B64DC500611CD9 /* ic_tab_home_pressed.png */; };
+		AA09E32E21B64DC600611CD9 /* ic_login_area_next.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E18721B64DC500611CD9 /* ic_login_area_next.png */; };
+		AA09E32F21B64DC600611CD9 /* nav_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E18821B64DC500611CD9 /* nav_logo.png */; };
+		AA09E33021B64DC600611CD9 /* ic_invisible.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E18921B64DC500611CD9 /* ic_invisible.png */; };
+		AA09E33121B64DC600611CD9 /* tag_red.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E18A21B64DC500611CD9 /* tag_red.png */; };
+		AA09E33221B64DC600611CD9 /* ic_tab_legal_tender_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E18B21B64DC500611CD9 /* ic_tab_legal_tender_pressed.png */; };
+		AA09E33321B64DC600611CD9 /* btn_id_front.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E18C21B64DC500611CD9 /* btn_id_front.png */; };
+		AA09E33421B64DC600611CD9 /* ic_home_trumpet.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E18D21B64DC500611CD9 /* ic_home_trumpet.png */; };
+		AA09E33521B64DC600611CD9 /* referee_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E18E21B64DC500611CD9 /* referee_bg.png */; };
+		AA09E33621B64DC600611CD9 /* ic_add.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E18F21B64DC500611CD9 /* ic_add.png */; };
+		AA09E33721B64DC600611CD9 /* btn_id_rear.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E19021B64DC500611CD9 /* btn_id_rear.png */; };
+		AA09E33821B64DC600611CD9 /* ic_login_close.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E19121B64DC500611CD9 /* ic_login_close.png */; };
+		AA09E33921B64DC600611CD9 /* ic_center_notice.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E19221B64DC500611CD9 /* ic_center_notice.png */; };
+		AA09E33A21B64DC600611CD9 /* ic_login_open_eye.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E19321B64DC500611CD9 /* ic_login_open_eye.png */; };
+		AA09E33B21B64DC600611CD9 /* ic_tab_legal_tender_default.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E19421B64DC500611CD9 /* ic_tab_legal_tender_default.png */; };
+		AA09E33C21B64DC600611CD9 /* ic_nav_home.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E19521B64DC500611CD9 /* ic_nav_home.png */; };
+		AA09E33D21B64DC600611CD9 /* tag_indexes_up.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E19621B64DC500611CD9 /* tag_indexes_up.png */; };
+		AA09E33E21B64DC600611CD9 /* face_id.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E19721B64DC500611CD9 /* face_id.png */; };
+		AA09E33F21B64DC600611CD9 /* ic_tab_mine_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E19821B64DC500611CD9 /* ic_tab_mine_pressed.png */; };
+		AA09E34021B64DC600611CD9 /* ic_delete.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E19921B64DC500611CD9 /* ic_delete.png */; };
+		AA09E34121B64DC600611CD9 /* tag_indexes_down.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E19A21B64DC500611CD9 /* tag_indexes_down.png */; };
+		AA09E34221B64DC600611CD9 /* tag_wechat_pay.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E19B21B64DC500611CD9 /* tag_wechat_pay.png */; };
+		AA09E34321B64DC600611CD9 /* ic_tab_home_default.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E19C21B64DC500611CD9 /* ic_tab_home_default.png */; };
+		AA09E34421B64DC600611CD9 /* tag_corner_mark_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E19D21B64DC500611CD9 /* tag_corner_mark_pressed.png */; };
+		AA09E34521B64DC600611CD9 /* ic_tab_deal_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E19E21B64DC500611CD9 /* ic_tab_deal_pressed.png */; };
+		AA09E34621B64DC600611CD9 /* add_pictures.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E19F21B64DC500611CD9 /* add_pictures.png */; };
+		AA09E34721B64DC600611CD9 /* tag_bank_card.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1A021B64DC500611CD9 /* tag_bank_card.png */; };
+		AA09E34821B64DC600611CD9 /* ic_refresh_login.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1A121B64DC500611CD9 /* ic_refresh_login.png */; };
+		AA09E34921B64DC600611CD9 /* ic_login_check_default.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1A221B64DC500611CD9 /* ic_login_check_default.png */; };
+		AA09E34A21B64DC600611CD9 /* ic_nav_search.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1A321B64DC500611CD9 /* ic_nav_search.png */; };
+		AA09E34B21B64DC600611CD9 /* fingerprint.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1A421B64DC500611CD9 /* fingerprint.png */; };
+		AA09E34C21B64DC600611CD9 /* ic_search_coin.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1A521B64DC500611CD9 /* ic_search_coin.png */; };
+		AA09E34D21B64DC600611CD9 /* ic_audit_succeed.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1A621B64DC500611CD9 /* ic_audit_succeed.png */; };
+		AA09E34E21B64DC600611CD9 /* update_title.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1A721B64DC500611CD9 /* update_title.png */; };
+		AA09E34F21B64DC600611CD9 /* ic_nav_back_white.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1A821B64DC500611CD9 /* ic_nav_back_white.png */; };
+		AA09E35021B64DC600611CD9 /* ic_visible.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1A921B64DC500611CD9 /* ic_visible.png */; };
+		AA09E35121B64DC600611CD9 /* ic_tab_wallet_default.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1AA21B64DC500611CD9 /* ic_tab_wallet_default.png */; };
+		AA09E35221B64DC600611CD9 /* ic_center_payment.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1AB21B64DC500611CD9 /* ic_center_payment.png */; };
+		AA09E35321B64DC600611CD9 /* ic_delete_coin.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1AC21B64DC500611CD9 /* ic_delete_coin.png */; };
+		AA09E35421B64DC600611CD9 /* ic_nav_trading_record.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1AD21B64DC500611CD9 /* ic_nav_trading_record.png */; };
+		AA09E35521B64DC600611CD9 /* ic_scan.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1AE21B64DC500611CD9 /* ic_scan.png */; };
+		AA09E35621B64DC600611CD9 /* ic_logo_about.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1AF21B64DC500611CD9 /* ic_logo_about.png */; };
+		AA09E35721B64DC600611CD9 /* tag_sale.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1B021B64DC500611CD9 /* tag_sale.png */; };
+		AA09E35821B64DC600611CD9 /* ic_tab_wallet_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1B121B64DC500611CD9 /* ic_tab_wallet_pressed.png */; };
+		AA09E35921B64DC600611CD9 /* tag_alipay.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1B221B64DC500611CD9 /* tag_alipay.png */; };
+		AA09E35A21B64DC600611CD9 /* wallet-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1B321B64DC500611CD9 /* wallet-bg.png */; };
+		AA09E35B21B64DC600611CD9 /* ic_slide_login.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1B421B64DC500611CD9 /* ic_slide_login.png */; };
+		AA09E35C21B64DC600611CD9 /* ic_nav_k_line.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1B521B64DC500611CD9 /* ic_nav_k_line.png */; };
+		AA09E35D21B64DC600611CD9 /* tag_buy.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1B621B64DC500611CD9 /* tag_buy.png */; };
+		AA09E35E21B64DC600611CD9 /* btn_id_front_sign.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1B721B64DC500611CD9 /* btn_id_front_sign.png */; };
+		AA09E35F21B64DC600611CD9 /* ic_login_check_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1B821B64DC500611CD9 /* ic_login_check_pressed.png */; };
+		AA09E36021B64DC600611CD9 /* ic_center_about.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1B921B64DC500611CD9 /* ic_center_about.png */; };
+		AA09E36121B64DC600611CD9 /* tag_green.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1BA21B64DC500611CD9 /* tag_green.png */; };
+		AA09E36221B64DC600611CD9 /* ic_center_security.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1BB21B64DC500611CD9 /* ic_center_security.png */; };
+		AA09E36321B64DC600611CD9 /* ic_center_rebates.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1BC21B64DC500611CD9 /* ic_center_rebates.png */; };
+		AA09E36421B64DC600611CD9 /* login_pic_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1BD21B64DC500611CD9 /* login_pic_01.jpg */; };
+		AA09E36521B64DC600611CD9 /* login_pic_03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1BE21B64DC500611CD9 /* login_pic_03.jpg */; };
+		AA09E36621B64DC600611CD9 /* login_pic_02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1BF21B64DC500611CD9 /* login_pic_02.jpg */; };
+		AA09E36721B64DC600611CD9 /* login_pic_05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1C021B64DC500611CD9 /* login_pic_05.jpg */; };
+		AA09E36821B64DC600611CD9 /* login_pic_04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1C121B64DC500611CD9 /* login_pic_04.jpg */; };
+		AA09E36921B64DC600611CD9 /* 720x1280.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1C321B64DC500611CD9 /* 720x1280.png */; };
+		AA09E36A21B64DC600611CD9 /* 1080x1920.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1C421B64DC500611CD9 /* 1080x1920.png */; };
+		AA09E36B21B64DC600611CD9 /* 144x144.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1C621B64DC500611CD9 /* 144x144.png */; };
+		AA09E36C21B64DC600611CD9 /* 72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1C721B64DC500611CD9 /* 72x72.png */; };
+		AA09E36D21B64DC600611CD9 /* 96x96.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1C821B64DC500611CD9 /* 96x96.png */; };
+		AA09E36E21B64DC600611CD9 /* 512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1C921B64DC500611CD9 /* 512x512.png */; };
+		AA09E36F21B64DC600611CD9 /* 关于我们.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1CC21B64DC500611CD9 /* 关于我们.png */; };
+		AA09E37021B64DC600611CD9 /* 手机注册.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1CD21B64DC500611CD9 /* 手机注册.png */; };
+		AA09E37121B64DC600611CD9 /* 实名认证.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1CE21B64DC500611CD9 /* 实名认证.png */; };
+		AA09E37221B64DC600611CD9 /* 我要申诉.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1CF21B64DC500611CD9 /* 我要申诉.png */; };
+		AA09E37321B64DC600611CD9 /* 登录.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1D021B64DC500611CD9 /* 登录.png */; };
+		AA09E37421B64DC600611CD9 /* 交易记录_未完成.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1D121B64DC500611CD9 /* 交易记录_未完成.png */; };
+		AA09E37521B64DC600611CD9 /* 公告.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1D221B64DC500611CD9 /* 公告.png */; };
+		AA09E37621B64DC600611CD9 /* 修改绑定邮箱-2.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1D321B64DC500611CD9 /* 修改绑定邮箱-2.png */; };
+		AA09E37721B64DC600611CD9 /* 资讯内容.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1D421B64DC500611CD9 /* 资讯内容.png */; };
+		AA09E37821B64DC600611CD9 /* 资产.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1D521B64DC500611CD9 /* 资产.png */; };
+		AA09E37921B64DC600611CD9 /* 推荐返佣.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1D621B64DC500611CD9 /* 推荐返佣.png */; };
+		AA09E37A21B64DC600611CD9 /* 成交明细.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1D721B64DC500611CD9 /* 成交明细.png */; };
+		AA09E37B21B64DC600611CD9 /* 买出.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1D821B64DC500611CD9 /* 买出.png */; };
+		AA09E37C21B64DC600611CD9 /* 指纹验证.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1D921B64DC500611CD9 /* 指纹验证.png */; };
+		AA09E37D21B64DC600611CD9 /* 历史委托.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1DA21B64DC500611CD9 /* 历史委托.png */; };
+		AA09E37E21B64DC600611CD9 /* 法币_交易单.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1DB21B64DC500611CD9 /* 法币_交易单.png */; };
+		AA09E37F21B64DC600611CD9 /* 安全验证.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1DC21B64DC500611CD9 /* 安全验证.png */; };
+		AA09E38021B64DC600611CD9 /* 搜索.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1DD21B64DC500611CD9 /* 搜索.png */; };
+		AA09E38121B64DC600611CD9 /* 法币_选择币种.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1DE21B64DC500611CD9 /* 法币_选择币种.png */; };
+		AA09E38221B64DC600611CD9 /* 当前委托.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1DF21B64DC500611CD9 /* 当前委托.png */; };
+		AA09E38321B64DC600611CD9 /* 行情交易.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1E021B64DC500611CD9 /* 行情交易.png */; };
+		AA09E38421B64DC600611CD9 /* 安全中心.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1E121B64DC500611CD9 /* 安全中心.png */; };
+		AA09E38521B64DC600611CD9 /* 修改绑定邮箱.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1E221B64DC500611CD9 /* 修改绑定邮箱.png */; };
+		AA09E38621B64DC600611CD9 /* 发布交易-我要出售.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1E321B64DC500611CD9 /* 发布交易-我要出售.png */; };
+		AA09E38721B64DC600611CD9 /* 账单.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1E421B64DC500611CD9 /* 账单.png */; };
+		AA09E38821B64DC600611CD9 /* 卖家订单详情-对方已支付.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1E521B64DC500611CD9 /* 卖家订单详情-对方已支付.png */; };
+		AA09E38921B64DC600611CD9 /* K线图.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1E621B64DC500611CD9 /* K线图.png */; };
+		AA09E38A21B64DC600611CD9 /* 返佣记录.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1E721B64DC500611CD9 /* 返佣记录.png */; };
+		AA09E38B21B64DC600611CD9 /* 首页.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1E821B64DC500611CD9 /* 首页.png */; };
+		AA09E38C21B64DC600611CD9 /* 我的.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1E921B64DC500611CD9 /* 我的.png */; };
+		AA09E38D21B64DC600611CD9 /* 法币_购买.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1EA21B64DC500611CD9 /* 法币_购买.png */; };
+		AA09E38E21B64DC600611CD9 /* 法币_确认购买.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1EB21B64DC500611CD9 /* 法币_确认购买.png */; };
+		AA09E38F21B64DC600611CD9 /* 邮箱注册_拼图验证.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1EC21B64DC500611CD9 /* 邮箱注册_拼图验证.png */; };
+		AA09E39021B64DC600611CD9 /* 资讯.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1ED21B64DC500611CD9 /* 资讯.png */; };
+		AA09E39121B64DC600611CD9 /* 公告内容.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1EE21B64DC500611CD9 /* 公告内容.png */; };
+		AA09E39221B64DC600611CD9 /* add_pictures@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1F021B64DC500611CD9 /* add_pictures@3x.png */; };
+		AA09E39321B64DC600611CD9 /* ic_center_about@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1F121B64DC500611CD9 /* ic_center_about@2x.png */; };
+		AA09E39421B64DC600611CD9 /* slide_bar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1F221B64DC500611CD9 /* slide_bar@2x.png */; };
+		AA09E39521B64DC600611CD9 /* tag_indexes_up@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1F321B64DC500611CD9 /* tag_indexes_up@3x.png */; };
+		AA09E39621B64DC600611CD9 /* ic_nav_back_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1F421B64DC500611CD9 /* ic_nav_back_white@2x.png */; };
+		AA09E39721B64DC600611CD9 /* ic_tab_deal_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1F521B64DC500611CD9 /* ic_tab_deal_pressed@2x.png */; };
+		AA09E39821B64DC600611CD9 /* ic_tab_home_pressed@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1F621B64DC500611CD9 /* ic_tab_home_pressed@3x.png */; };
+		AA09E39921B64DC600611CD9 /* ic_invisible@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1F721B64DC500611CD9 /* ic_invisible@2x.png */; };
+		AA09E39A21B64DC600611CD9 /* tag_corner_mark_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1F821B64DC500611CD9 /* tag_corner_mark_default@2x.png */; };
+		AA09E39B21B64DC600611CD9 /* tag_vip@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1F921B64DC500611CD9 /* tag_vip@3x.png */; };
+		AA09E39C21B64DC600611CD9 /* ic_tab_mine_pressed@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1FA21B64DC500611CD9 /* ic_tab_mine_pressed@3x.png */; };
+		AA09E39D21B64DC600611CD9 /* ic_nav_search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1FB21B64DC500611CD9 /* ic_nav_search@2x.png */; };
+		AA09E39E21B64DC600611CD9 /* ic_tab_legal_tender_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1FC21B64DC500611CD9 /* ic_tab_legal_tender_default@2x.png */; };
+		AA09E39F21B64DC600611CD9 /* ic_search_coin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1FD21B64DC500611CD9 /* ic_search_coin@2x.png */; };
+		AA09E3A021B64DC600611CD9 /* ic_login_close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1FE21B64DC500611CD9 /* ic_login_close@3x.png */; };
+		AA09E3A121B64DC600611CD9 /* tag_red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E1FF21B64DC500611CD9 /* tag_red@2x.png */; };
+		AA09E3A221B64DC600611CD9 /* ic_login_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E20021B64DC500611CD9 /* ic_login_close@2x.png */; };
+		AA09E3A321B64DC600611CD9 /* tag_red@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E20121B64DC500611CD9 /* tag_red@3x.png */; };
+		AA09E3A421B64DC600611CD9 /* ic_search_coin@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E20221B64DC500611CD9 /* ic_search_coin@3x.png */; };
+		AA09E3A521B64DC600611CD9 /* ic_tab_legal_tender_default@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E20321B64DC500611CD9 /* ic_tab_legal_tender_default@3x.png */; };
+		AA09E3A621B64DC600611CD9 /* ic_tab_mine_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E20421B64DC500611CD9 /* ic_tab_mine_pressed@2x.png */; };
+		AA09E3A721B64DC600611CD9 /* ic_nav_search@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E20521B64DC500611CD9 /* ic_nav_search@3x.png */; };
+		AA09E3A821B64DC600611CD9 /* tag_vip@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E20621B64DC500611CD9 /* tag_vip@2x.png */; };
+		AA09E3A921B64DC600611CD9 /* tag_corner_mark_default@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E20721B64DC500611CD9 /* tag_corner_mark_default@3x.png */; };
+		AA09E3AA21B64DC600611CD9 /* ic_invisible@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E20821B64DC500611CD9 /* ic_invisible@3x.png */; };
+		AA09E3AB21B64DC600611CD9 /* ic_tab_deal_pressed@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E20921B64DC500611CD9 /* ic_tab_deal_pressed@3x.png */; };
+		AA09E3AC21B64DC600611CD9 /* ic_tab_home_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E20A21B64DC500611CD9 /* ic_tab_home_pressed@2x.png */; };
+		AA09E3AD21B64DC600611CD9 /* ic_nav_back_white@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E20B21B64DC500611CD9 /* ic_nav_back_white@3x.png */; };
+		AA09E3AE21B64DC600611CD9 /* slide_bar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E20C21B64DC500611CD9 /* slide_bar@3x.png */; };
+		AA09E3AF21B64DC600611CD9 /* tag_indexes_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E20D21B64DC500611CD9 /* tag_indexes_up@2x.png */; };
+		AA09E3B021B64DC600611CD9 /* add_pictures@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E20E21B64DC500611CD9 /* add_pictures@2x.png */; };
+		AA09E3B121B64DC600611CD9 /* ic_center_about@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E20F21B64DC500611CD9 /* ic_center_about@3x.png */; };
+		AA09E3B221B64DC600611CD9 /* btn_id_front@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E21021B64DC500611CD9 /* btn_id_front@3x.png */; };
+		AA09E3B321B64DC600611CD9 /* ic_visible@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E21121B64DC500611CD9 /* ic_visible@3x.png */; };
+		AA09E3B421B64DC600611CD9 /* face_id@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E21221B64DC500611CD9 /* face_id@3x.png */; };
+		AA09E3B521B64DC600611CD9 /* ic_scan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E21321B64DC500611CD9 /* ic_scan@2x.png */; };
+		AA09E3B621B64DC600611CD9 /* ic_slide_login_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E21421B64DC500611CD9 /* ic_slide_login_pressed@2x.png */; };
+		AA09E3B721B64DC600611CD9 /* ic_delete@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E21521B64DC500611CD9 /* ic_delete@3x.png */; };
+		AA09E3B821B64DC600611CD9 /* ic_tab_deal_default@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E21621B64DC500611CD9 /* ic_tab_deal_default@3x.png */; };
+		AA09E3B921B64DC600611CD9 /* ic_tab_home_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E21721B64DC500611CD9 /* ic_tab_home_default@2x.png */; };
+		AA09E3BA21B64DC600611CD9 /* ic_delete_coin@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E21821B64DC500611CD9 /* ic_delete_coin@3x.png */; };
+		AA09E3BB21B64DC600611CD9 /* nav_logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E21921B64DC500611CD9 /* nav_logo@3x.png */; };
+		AA09E3BC21B64DC600611CD9 /* tag_indexes_down@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E21A21B64DC500611CD9 /* tag_indexes_down@3x.png */; };
+		AA09E3BD21B64DC600611CD9 /* tag_corner_mark_pressed@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E21B21B64DC500611CD9 /* tag_corner_mark_pressed@3x.png */; };
+		AA09E3BE21B64DC600611CD9 /* tag_wechat_pay@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E21C21B64DC500611CD9 /* tag_wechat_pay@3x.png */; };
+		AA09E3BF21B64DC600611CD9 /* ic_tab_mine_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E21D21B64DC500611CD9 /* ic_tab_mine_default@2x.png */; };
+		AA09E3C021B64DC600611CD9 /* ic_tab_legal_tender_pressed@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E21E21B64DC500611CD9 /* ic_tab_legal_tender_pressed@3x.png */; };
+		AA09E3C121B64DC600611CD9 /* ic_nav_trading_record@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E21F21B64DC500611CD9 /* ic_nav_trading_record@2x.png */; };
+		AA09E3C221B64DC600611CD9 /* slide_bar_pressed@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E22021B64DC500611CD9 /* slide_bar_pressed@3x.png */; };
+		AA09E3C321B64DC600611CD9 /* tag_alipay@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E22121B64DC500611CD9 /* tag_alipay@3x.png */; };
+		AA09E3C421B64DC600611CD9 /* btn_id_front_sign@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E22221B64DC500611CD9 /* btn_id_front_sign@2x.png */; };
+		AA09E3C521B64DC600611CD9 /* btn_id_front_sign@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E22321B64DC500611CD9 /* btn_id_front_sign@3x.png */; };
+		AA09E3C621B64DC600611CD9 /* tag_alipay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E22421B64DC500611CD9 /* tag_alipay@2x.png */; };
+		AA09E3C721B64DC600611CD9 /* slide_bar_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E22521B64DC500611CD9 /* slide_bar_pressed@2x.png */; };
+		AA09E3C821B64DC600611CD9 /* ic_tab_legal_tender_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E22621B64DC500611CD9 /* ic_tab_legal_tender_pressed@2x.png */; };
+		AA09E3C921B64DC600611CD9 /* ic_nav_trading_record@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E22721B64DC500611CD9 /* ic_nav_trading_record@3x.png */; };
+		AA09E3CA21B64DC600611CD9 /* ic_tab_mine_default@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E22821B64DC500611CD9 /* ic_tab_mine_default@3x.png */; };
+		AA09E3CB21B64DC600611CD9 /* tag_wechat_pay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E22921B64DC500611CD9 /* tag_wechat_pay@2x.png */; };
+		AA09E3CC21B64DC600611CD9 /* tag_corner_mark_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E22A21B64DC500611CD9 /* tag_corner_mark_pressed@2x.png */; };
+		AA09E3CD21B64DC600611CD9 /* tag_indexes_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E22B21B64DC500611CD9 /* tag_indexes_down@2x.png */; };
+		AA09E3CE21B64DC600611CD9 /* ic_delete_coin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E22C21B64DC600611CD9 /* ic_delete_coin@2x.png */; };
+		AA09E3CF21B64DC600611CD9 /* nav_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E22D21B64DC600611CD9 /* nav_logo@2x.png */; };
+		AA09E3D021B64DC600611CD9 /* ic_tab_deal_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E22E21B64DC600611CD9 /* ic_tab_deal_default@2x.png */; };
+		AA09E3D121B64DC600611CD9 /* ic_tab_home_default@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E22F21B64DC600611CD9 /* ic_tab_home_default@3x.png */; };
+		AA09E3D221B64DC600611CD9 /* ic_delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E23021B64DC600611CD9 /* ic_delete@2x.png */; };
+		AA09E3D321B64DC600611CD9 /* ic_slide_login_pressed@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E23121B64DC600611CD9 /* ic_slide_login_pressed@3x.png */; };
+		AA09E3D421B64DC600611CD9 /* face_id@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E23221B64DC600611CD9 /* face_id@2x.png */; };
+		AA09E3D521B64DC600611CD9 /* ic_scan@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E23321B64DC600611CD9 /* ic_scan@3x.png */; };
+		AA09E3D621B64DC600611CD9 /* ic_visible@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E23421B64DC600611CD9 /* ic_visible@2x.png */; };
+		AA09E3D721B64DC600611CD9 /* btn_id_front@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E23521B64DC600611CD9 /* btn_id_front@2x.png */; };
+		AA09E3D821B64DC600611CD9 /* tag_sale@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E23621B64DC600611CD9 /* tag_sale@2x.png */; };
+		AA09E3D921B64DC600611CD9 /* ic_login_area_next@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E23721B64DC600611CD9 /* ic_login_area_next@3x.png */; };
+		AA09E3DA21B64DC600611CD9 /* nav_tag_corner_mark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E23821B64DC600611CD9 /* nav_tag_corner_mark@2x.png */; };
+		AA09E3DB21B64DC600611CD9 /* ic_home_trumpet@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E23921B64DC600611CD9 /* ic_home_trumpet@2x.png */; };
+		AA09E3DC21B64DC600611CD9 /* ic_center_notice@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E23A21B64DC600611CD9 /* ic_center_notice@3x.png */; };
+		AA09E3DD21B64DC600611CD9 /* fingerprint@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E23B21B64DC600611CD9 /* fingerprint@2x.png */; };
+		AA09E3DE21B64DC600611CD9 /* tag_green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E23C21B64DC600611CD9 /* tag_green@2x.png */; };
+		AA09E3DF21B64DC600611CD9 /* ic_login_check_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E23D21B64DC600611CD9 /* ic_login_check_pressed@2x.png */; };
+		AA09E3E021B64DC600611CD9 /* wallet-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E23E21B64DC600611CD9 /* wallet-bg@2x.png */; };
+		AA09E3E121B64DC600611CD9 /* ic_refresh_login@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E23F21B64DC600611CD9 /* ic_refresh_login@3x.png */; };
+		AA09E3E221B64DC600611CD9 /* ic_tab_wallet_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E24021B64DC600611CD9 /* ic_tab_wallet_default@2x.png */; };
+		AA09E3E321B64DC600611CD9 /* ic_nav_k_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E24121B64DC600611CD9 /* ic_nav_k_line@2x.png */; };
+		AA09E3E421B64DC600611CD9 /* ic_audit_succeed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E24221B64DC600611CD9 /* ic_audit_succeed@2x.png */; };
+		AA09E3E521B64DC600611CD9 /* ic_center_rebates@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E24321B64DC600611CD9 /* ic_center_rebates@3x.png */; };
+		AA09E3E621B64DC600611CD9 /* referee_bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E24421B64DC600611CD9 /* referee_bg@3x.png */; };
+		AA09E3E721B64DC600611CD9 /* tag_bank_card@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E24521B64DC600611CD9 /* tag_bank_card@2x.png */; };
+		AA09E3E821B64DC600611CD9 /* ic_nav_back_black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E24621B64DC600611CD9 /* ic_nav_back_black@2x.png */; };
+		AA09E3E921B64DC600611CD9 /* ic_logo_about@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E24721B64DC600611CD9 /* ic_logo_about@3x.png */; };
+		AA09E3EA21B64DC600611CD9 /* ic_nav_back_black@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E24821B64DC600611CD9 /* ic_nav_back_black@3x.png */; };
+		AA09E3EB21B64DC600611CD9 /* ic_logo_about@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E24921B64DC600611CD9 /* ic_logo_about@2x.png */; };
+		AA09E3EC21B64DC600611CD9 /* tag_bank_card@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E24A21B64DC600611CD9 /* tag_bank_card@3x.png */; };
+		AA09E3ED21B64DC600611CD9 /* referee_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E24B21B64DC600611CD9 /* referee_bg@2x.png */; };
+		AA09E3EE21B64DC600611CD9 /* ic_audit_succeed@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E24C21B64DC600611CD9 /* ic_audit_succeed@3x.png */; };
+		AA09E3EF21B64DC600611CD9 /* ic_center_rebates@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E24D21B64DC600611CD9 /* ic_center_rebates@2x.png */; };
+		AA09E3F021B64DC600611CD9 /* ic_nav_k_line@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E24E21B64DC600611CD9 /* ic_nav_k_line@3x.png */; };
+		AA09E3F121B64DC600611CD9 /* ic_tab_wallet_default@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E24F21B64DC600611CD9 /* ic_tab_wallet_default@3x.png */; };
+		AA09E3F221B64DC600611CD9 /* ic_refresh_login@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E25021B64DC600611CD9 /* ic_refresh_login@2x.png */; };
+		AA09E3F321B64DC600611CD9 /* wallet-bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E25121B64DC600611CD9 /* wallet-bg@3x.png */; };
+		AA09E3F421B64DC600611CD9 /* ic_login_check_pressed@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E25221B64DC600611CD9 /* ic_login_check_pressed@3x.png */; };
+		AA09E3F521B64DC600611CD9 /* tag_green@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E25321B64DC600611CD9 /* tag_green@3x.png */; };
+		AA09E3F621B64DC600611CD9 /* ic_center_notice@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E25421B64DC600611CD9 /* ic_center_notice@2x.png */; };
+		AA09E3F721B64DC600611CD9 /* fingerprint@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E25521B64DC600611CD9 /* fingerprint@3x.png */; };
+		AA09E3F821B64DC600611CD9 /* ic_login_area_next@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E25621B64DC600611CD9 /* ic_login_area_next@2x.png */; };
+		AA09E3F921B64DC600611CD9 /* nav_tag_corner_mark@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E25721B64DC600611CD9 /* nav_tag_corner_mark@3x.png */; };
+		AA09E3FA21B64DC600611CD9 /* ic_home_trumpet@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E25821B64DC600611CD9 /* ic_home_trumpet@3x.png */; };
+		AA09E3FB21B64DC600611CD9 /* tag_sale@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E25921B64DC600611CD9 /* tag_sale@3x.png */; };
+		AA09E3FC21B64DC600611CD9 /* ic_add@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E25A21B64DC600611CD9 /* ic_add@2x.png */; };
+		AA09E3FD21B64DC600611CD9 /* login_pic_01.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E25B21B64DC600611CD9 /* login_pic_01.png */; };
+		AA09E3FE21B64DC600611CD9 /* ic_login_open_eye@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E25C21B64DC600611CD9 /* ic_login_open_eye@3x.png */; };
+		AA09E3FF21B64DC600611CD9 /* ic_nav_home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E25D21B64DC600611CD9 /* ic_nav_home@2x.png */; };
+		AA09E40021B64DC600611CD9 /* ic_login_check_default@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E25E21B64DC600611CD9 /* ic_login_check_default@3x.png */; };
+		AA09E40121B64DC600611CD9 /* ic_center_security@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E25F21B64DC600611CD9 /* ic_center_security@2x.png */; };
+		AA09E40221B64DC600611CD9 /* login_pic_03.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E26021B64DC600611CD9 /* login_pic_03.png */; };
+		AA09E40321B64DC600611CD9 /* ic_login_close_eye@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E26121B64DC600611CD9 /* ic_login_close_eye@2x.png */; };
+		AA09E40421B64DC600611CD9 /* ic_tab_wallet_pressed@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E26221B64DC600611CD9 /* ic_tab_wallet_pressed@3x.png */; };
+		AA09E40521B64DC600611CD9 /* ic_slide_login@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E26321B64DC600611CD9 /* ic_slide_login@3x.png */; };
+		AA09E40621B64DC600611CD9 /* btn_id_rear@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E26421B64DC600611CD9 /* btn_id_rear@3x.png */; };
+		AA09E40721B64DC600611CD9 /* tag_buy@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E26521B64DC600611CD9 /* tag_buy@3x.png */; };
+		AA09E40821B64DC600611CD9 /* login_pic_02.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E26621B64DC600611CD9 /* login_pic_02.png */; };
+		AA09E40921B64DC600611CD9 /* ic_center_payment@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E26721B64DC600611CD9 /* ic_center_payment@3x.png */; };
+		AA09E40A21B64DC600611CD9 /* ic_home_nav_logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E26821B64DC600611CD9 /* ic_home_nav_logo@3x.png */; };
+		AA09E40B21B64DC600611CD9 /* ic_home_nav_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E26921B64DC600611CD9 /* ic_home_nav_logo@2x.png */; };
+		AA09E40C21B64DC600611CD9 /* ic_center_payment@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E26A21B64DC600611CD9 /* ic_center_payment@2x.png */; };
+		AA09E40D21B64DC600611CD9 /* tag_buy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E26B21B64DC600611CD9 /* tag_buy@2x.png */; };
+		AA09E40E21B64DC600611CD9 /* ic_slide_login@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E26C21B64DC600611CD9 /* ic_slide_login@2x.png */; };
+		AA09E40F21B64DC600611CD9 /* btn_id_rear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E26D21B64DC600611CD9 /* btn_id_rear@2x.png */; };
+		AA09E41021B64DC600611CD9 /* ic_tab_wallet_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E26E21B64DC600611CD9 /* ic_tab_wallet_pressed@2x.png */; };
+		AA09E41121B64DC600611CD9 /* ic_login_close_eye@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E26F21B64DC600611CD9 /* ic_login_close_eye@3x.png */; };
+		AA09E41221B64DC600611CD9 /* ic_center_security@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E27021B64DC600611CD9 /* ic_center_security@3x.png */; };
+		AA09E41321B64DC600611CD9 /* ic_nav_home@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E27121B64DC600611CD9 /* ic_nav_home@3x.png */; };
+		AA09E41421B64DC600611CD9 /* ic_login_check_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E27221B64DC600611CD9 /* ic_login_check_default@2x.png */; };
+		AA09E41521B64DC600611CD9 /* ic_login_open_eye@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E27321B64DC600611CD9 /* ic_login_open_eye@2x.png */; };
+		AA09E41621B64DC600611CD9 /* login_pic_05.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E27421B64DC600611CD9 /* login_pic_05.png */; };
+		AA09E41721B64DC600611CD9 /* ic_add@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E27521B64DC600611CD9 /* ic_add@3x.png */; };
+		AA09E41821B64DC600611CD9 /* login_pic_04.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E27621B64DC600611CD9 /* login_pic_04.png */; };
+		AA09E41921B64DC600611CD9 /* 640x960.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E27821B64DC600611CD9 /* 640x960.png */; };
+		AA09E41A21B64DC600611CD9 /* 1125x2436.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E27921B64DC600611CD9 /* 1125x2436.png */; };
+		AA09E41B21B64DC600611CD9 /* 750x1624.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E27A21B64DC600611CD9 /* 750x1624.png */; };
+		AA09E41C21B64DC600611CD9 /* 750x1334.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E27B21B64DC600611CD9 /* 750x1334.png */; };
+		AA09E41D21B64DC600611CD9 /* 640x1136.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E27C21B64DC600611CD9 /* 640x1136.png */; };
+		AA09E41E21B64DC600611CD9 /* 1242x2208.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E27D21B64DC600611CD9 /* 1242x2208.png */; };
+		AA09E41F21B64DC600611CD9 /* 1024@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E27F21B64DC600611CD9 /* 1024@1x.png */; };
+		AA09E42021B64DC600611CD9 /* 20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E28021B64DC600611CD9 /* 20@3x.png */; };
+		AA09E42121B64DC600611CD9 /* 20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E28121B64DC600611CD9 /* 20@2x.png */; };
+		AA09E42221B64DC600611CD9 /* 60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E28221B64DC600611CD9 /* 60@3x.png */; };
+		AA09E42321B64DC600611CD9 /* 29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E28321B64DC600611CD9 /* 29@2x.png */; };
+		AA09E42421B64DC600611CD9 /* 29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E28421B64DC600611CD9 /* 29@3x.png */; };
+		AA09E42521B64DC600611CD9 /* 60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E28521B64DC600611CD9 /* 60@2x.png */; };
+		AA09E42621B64DC600611CD9 /* 40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E28621B64DC600611CD9 /* 40@2x.png */; };
+		AA09E42721B64DC600611CD9 /* 40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E28721B64DC600611CD9 /* 40@3x.png */; };
+		AA09E42821B64DC600611CD9 /* 关于我们.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E28921B64DC600611CD9 /* 关于我们.png */; };
+		AA09E42921B64DC600611CD9 /* 买家订单详情-交易完成.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E28A21B64DC600611CD9 /* 买家订单详情-交易完成.png */; };
+		AA09E42A21B64DC600611CD9 /* 申诉提交成功.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E28B21B64DC600611CD9 /* 申诉提交成功.png */; };
+		AA09E42B21B64DC600611CD9 /* 卖家订单详情-交易完成.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E28C21B64DC600611CD9 /* 卖家订单详情-交易完成.png */; };
+		AA09E42C21B64DC600611CD9 /* 手机注册.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E28D21B64DC600611CD9 /* 手机注册.png */; };
+		AA09E42D21B64DC600611CD9 /* 卖家订单详情-待对方支付.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E28E21B64DC600611CD9 /* 卖家订单详情-待对方支付.png */; };
+		AA09E42E21B64DC600611CD9 /* 买入.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E28F21B64DC600611CD9 /* 买入.png */; };
+		AA09E42F21B64DC600611CD9 /* 实名认证.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E29021B64DC600611CD9 /* 实名认证.png */; };
+		AA09E43021B64DC600611CD9 /* 发布交易-我要购买.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E29121B64DC600611CD9 /* 发布交易-我要购买.png */; };
+		AA09E43121B64DC600611CD9 /* 交易记录_已取消.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E29221B64DC600611CD9 /* 交易记录_已取消.png */; };
+		AA09E43221B64DC600611CD9 /* 我要申诉.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E29321B64DC600611CD9 /* 我要申诉.png */; };
+		AA09E43321B64DC600611CD9 /* 登录.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E29421B64DC600611CD9 /* 登录.png */; };
+		AA09E43421B64DC600611CD9 /* 交易记录_未完成.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E29521B64DC600611CD9 /* 交易记录_未完成.png */; };
+		AA09E43521B64DC600611CD9 /* 买家订单详情-待支付.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E29621B64DC600611CD9 /* 买家订单详情-待支付.png */; };
+		AA09E43621B64DC600611CD9 /* 公告.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E29721B64DC600611CD9 /* 公告.png */; };
+		AA09E43721B64DC600611CD9 /* 修改绑定邮箱-2.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E29821B64DC600611CD9 /* 修改绑定邮箱-2.png */; };
+		AA09E43821B64DC600611CD9 /* 资讯内容.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E29921B64DC600611CD9 /* 资讯内容.png */; };
+		AA09E43921B64DC600611CD9 /* 卖出.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E29A21B64DC600611CD9 /* 卖出.png */; };
+		AA09E43A21B64DC600611CD9 /* 个人资料.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E29B21B64DC600611CD9 /* 个人资料.png */; };
+		AA09E43B21B64DC600611CD9 /* 资产.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E29C21B64DC600611CD9 /* 资产.png */; };
+		AA09E43C21B64DC600611CD9 /* 法币_确认出售.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E29D21B64DC600611CD9 /* 法币_确认出售.png */; };
+		AA09E43D21B64DC600611CD9 /* 法币_出售.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E29E21B64DC600611CD9 /* 法币_出售.png */; };
+		AA09E43E21B64DC600611CD9 /* 推荐返佣.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E29F21B64DC600611CD9 /* 推荐返佣.png */; };
+		AA09E43F21B64DC600611CD9 /* 我的-未认证.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E2A021B64DC600611CD9 /* 我的-未认证.png */; };
+		AA09E44021B64DC600611CD9 /* 成交明细.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E2A121B64DC600611CD9 /* 成交明细.png */; };
+		AA09E44121B64DC600611CD9 /* 买家订单详情-违规.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E2A221B64DC600611CD9 /* 买家订单详情-违规.png */; };
+		AA09E44221B64DC600611CD9 /* 指纹验证.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E2A321B64DC600611CD9 /* 指纹验证.png */; };
+		AA09E44321B64DC600611CD9 /* 历史委托.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E2A421B64DC600611CD9 /* 历史委托.png */; };
+		AA09E44421B64DC600611CD9 /* 法币_交易单.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E2A521B64DC600611CD9 /* 法币_交易单.png */; };
+		AA09E44521B64DC600611CD9 /* 我的-未登录.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E2A621B64DC600611CD9 /* 我的-未登录.png */; };
+		AA09E44621B64DC600611CD9 /* 转出EOS.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E2A721B64DC600611CD9 /* 转出EOS.png */; };
+		AA09E44721B64DC600611CD9 /* 忘记邮箱密码.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E2A821B64DC600611CD9 /* 忘记邮箱密码.png */; };
+		AA09E44821B64DC600611CD9 /* 买家订单详情-待对方放币.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E2A921B64DC600611CD9 /* 买家订单详情-待对方放币.png */; };
+		AA09E44921B64DC600611CD9 /* 安全验证.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E2AA21B64DC600611CD9 /* 安全验证.png */; };
+		AA09E44A21B64DC600611CD9 /* 搜索.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E2AB21B64DC600611CD9 /* 搜索.png */; };
+		AA09E44B21B64DC600611CD9 /* 法币_选择币种.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E2AC21B64DC600611CD9 /* 法币_选择币种.png */; };
+		AA09E44C21B64DC600611CD9 /* 买家订单详情-交易取消.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E2AD21B64DC600611CD9 /* 买家订单详情-交易取消.png */; };
+		AA09E44D21B64DC600611CD9 /* 当前委托.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E2AE21B64DC600611CD9 /* 当前委托.png */; };
+		AA09E44E21B64DC600611CD9 /* 行情交易.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E2AF21B64DC600611CD9 /* 行情交易.png */; };
+		AA09E44F21B64DC600611CD9 /* 邮箱注册.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E2B021B64DC600611CD9 /* 邮箱注册.png */; };
+		AA09E45021B64DC600611CD9 /* 安全中心.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E2B121B64DC600611CD9 /* 安全中心.png */; };
+		AA09E45121B64DC600611CD9 /* 发布结果.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E2B221B64DC600611CD9 /* 发布结果.png */; };
+		AA09E45221B64DC600611CD9 /* 修改绑定邮箱.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E2B321B64DC600611CD9 /* 修改绑定邮箱.png */; };
+		AA09E45321B64DC600611CD9 /* 交易记录_已完成.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E2B421B64DC600611CD9 /* 交易记录_已完成.png */; };
+		AA09E45421B64DC600611CD9 /* 我的-实名认证.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E2B521B64DC600611CD9 /* 我的-实名认证.png */; };
+		AA09E45521B64DC600611CD9 /* 发布交易-我要出售.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E2B621B64DC600611CD9 /* 发布交易-我要出售.png */; };
+		AA09E45621B64DC600611CD9 /* 提币.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E2B721B64DC600611CD9 /* 提币.png */; };
+		AA09E45721B64DC600611CD9 /* 买家订单详情-待支付2.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E2B821B64DC600611CD9 /* 买家订单详情-待支付2.png */; };
+		AA09E45821B64DC600611CD9 /* 账单.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E2B921B64DC600611CD9 /* 账单.png */; };
+		AA09E45921B64DC600611CD9 /* 转入EOS.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E2BA21B64DC600611CD9 /* 转入EOS.png */; };
+		AA09E45A21B64DC600611CD9 /* 卖家订单详情-对方已支付.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E2BB21B64DC600611CD9 /* 卖家订单详情-对方已支付.png */; };
+		AA09E45B21B64DC600611CD9 /* K线图.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E2BC21B64DC600611CD9 /* K线图.png */; };
+		AA09E45C21B64DC600611CD9 /* 返佣记录.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E2BD21B64DC600611CD9 /* 返佣记录.png */; };
+		AA09E45D21B64DC600611CD9 /* 卖家订单详情-违规.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E2BE21B64DC600611CD9 /* 卖家订单详情-违规.png */; };
+		AA09E45E21B64DC600611CD9 /* 首页.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E2BF21B64DC600611CD9 /* 首页.png */; };
+		AA09E45F21B64DC600611CD9 /* 法币_购买.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E2C021B64DC600611CD9 /* 法币_购买.png */; };
+		AA09E46021B64DC600611CD9 /* 法币_确认购买.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E2C121B64DC600611CD9 /* 法币_确认购买.png */; };
+		AA09E46121B64DC600611CD9 /* 邮箱注册_拼图验证.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E2C221B64DC600611CD9 /* 邮箱注册_拼图验证.png */; };
+		AA09E46221B64DC600611CD9 /* 资讯.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E2C321B64DC600611CD9 /* 资讯.png */; };
+		AA09E46321B64DC600611CD9 /* 公告内容.png in Resources */ = {isa = PBXBuildFile; fileRef = AA09E2C421B64DC600611CD9 /* 公告内容.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +466,421 @@
 		AA09E10621B64DA800611CD9 /* Smile3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Smile3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA09E10A21B64DA800611CD9 /* Smile3UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Smile3UITests.m; sourceTree = "<group>"; };
 		AA09E10C21B64DA800611CD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA09E11B21B64DC500611CD9 /* 关于我们.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关于我们.png"; sourceTree = "<group>"; };
+		AA09E11C21B64DC500611CD9 /* 手机注册.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "手机注册.png"; sourceTree = "<group>"; };
+		AA09E11D21B64DC500611CD9 /* 实名认证.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "实名认证.png"; sourceTree = "<group>"; };
+		AA09E11E21B64DC500611CD9 /* 我要申诉.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我要申诉.png"; sourceTree = "<group>"; };
+		AA09E11F21B64DC500611CD9 /* 登录.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "登录.png"; sourceTree = "<group>"; };
+		AA09E12021B64DC500611CD9 /* 交易记录_未完成.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "交易记录_未完成.png"; sourceTree = "<group>"; };
+		AA09E12121B64DC500611CD9 /* 公告.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "公告.png"; sourceTree = "<group>"; };
+		AA09E12221B64DC500611CD9 /* 修改绑定邮箱-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "修改绑定邮箱-2.png"; sourceTree = "<group>"; };
+		AA09E12321B64DC500611CD9 /* 资讯内容.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "资讯内容.png"; sourceTree = "<group>"; };
+		AA09E12421B64DC500611CD9 /* 资产.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "资产.png"; sourceTree = "<group>"; };
+		AA09E12521B64DC500611CD9 /* 推荐返佣.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "推荐返佣.png"; sourceTree = "<group>"; };
+		AA09E12621B64DC500611CD9 /* 成交明细.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "成交明细.png"; sourceTree = "<group>"; };
+		AA09E12721B64DC500611CD9 /* 买出.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "买出.png"; sourceTree = "<group>"; };
+		AA09E12821B64DC500611CD9 /* 指纹验证.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "指纹验证.png"; sourceTree = "<group>"; };
+		AA09E12921B64DC500611CD9 /* 历史委托.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "历史委托.png"; sourceTree = "<group>"; };
+		AA09E12A21B64DC500611CD9 /* 法币_交易单.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "法币_交易单.png"; sourceTree = "<group>"; };
+		AA09E12B21B64DC500611CD9 /* 安全验证.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "安全验证.png"; sourceTree = "<group>"; };
+		AA09E12C21B64DC500611CD9 /* 搜索.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "搜索.png"; sourceTree = "<group>"; };
+		AA09E12D21B64DC500611CD9 /* 法币_选择币种.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "法币_选择币种.png"; sourceTree = "<group>"; };
+		AA09E12E21B64DC500611CD9 /* 当前委托.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "当前委托.png"; sourceTree = "<group>"; };
+		AA09E12F21B64DC500611CD9 /* 行情交易.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "行情交易.png"; sourceTree = "<group>"; };
+		AA09E13021B64DC500611CD9 /* 安全中心.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "安全中心.png"; sourceTree = "<group>"; };
+		AA09E13121B64DC500611CD9 /* 修改绑定邮箱.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "修改绑定邮箱.png"; sourceTree = "<group>"; };
+		AA09E13221B64DC500611CD9 /* 发布交易-我要出售.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "发布交易-我要出售.png"; sourceTree = "<group>"; };
+		AA09E13321B64DC500611CD9 /* 账单.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "账单.png"; sourceTree = "<group>"; };
+		AA09E13421B64DC500611CD9 /* 卖家订单详情-对方已支付.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "卖家订单详情-对方已支付.png"; sourceTree = "<group>"; };
+		AA09E13521B64DC500611CD9 /* K线图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "K线图.png"; sourceTree = "<group>"; };
+		AA09E13621B64DC500611CD9 /* 返佣记录.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返佣记录.png"; sourceTree = "<group>"; };
+		AA09E13721B64DC500611CD9 /* 首页.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页.png"; sourceTree = "<group>"; };
+		AA09E13821B64DC500611CD9 /* 我的.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的.png"; sourceTree = "<group>"; };
+		AA09E13921B64DC500611CD9 /* 法币_购买.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "法币_购买.png"; sourceTree = "<group>"; };
+		AA09E13A21B64DC500611CD9 /* 法币_确认购买.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "法币_确认购买.png"; sourceTree = "<group>"; };
+		AA09E13B21B64DC500611CD9 /* 邮箱注册_拼图验证.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "邮箱注册_拼图验证.png"; sourceTree = "<group>"; };
+		AA09E13C21B64DC500611CD9 /* 资讯.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "资讯.png"; sourceTree = "<group>"; };
+		AA09E13D21B64DC500611CD9 /* 公告内容.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "公告内容.png"; sourceTree = "<group>"; };
+		AA09E14021B64DC500611CD9 /* ic_login_close_eye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_login_close_eye.png; sourceTree = "<group>"; };
+		AA09E14121B64DC500611CD9 /* ic_tab_mine_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_tab_mine_default.png; sourceTree = "<group>"; };
+		AA09E14221B64DC500611CD9 /* ic_nav_back_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_nav_back_black.png; sourceTree = "<group>"; };
+		AA09E14321B64DC500611CD9 /* tag_vip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tag_vip.png; sourceTree = "<group>"; };
+		AA09E14421B64DC500611CD9 /* ic_tab_deal_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_tab_deal_default.png; sourceTree = "<group>"; };
+		AA09E14521B64DC500611CD9 /* tag_corner_mark_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tag_corner_mark_default.png; sourceTree = "<group>"; };
+		AA09E14621B64DC500611CD9 /* nav_tag_corner_mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_tag_corner_mark.png; sourceTree = "<group>"; };
+		AA09E14721B64DC500611CD9 /* ic_tab_home_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_tab_home_pressed.png; sourceTree = "<group>"; };
+		AA09E14821B64DC500611CD9 /* ic_login_area_next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_login_area_next.png; sourceTree = "<group>"; };
+		AA09E14921B64DC500611CD9 /* nav_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_logo.png; sourceTree = "<group>"; };
+		AA09E14A21B64DC500611CD9 /* ic_invisible.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_invisible.png; sourceTree = "<group>"; };
+		AA09E14B21B64DC500611CD9 /* tag_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tag_red.png; sourceTree = "<group>"; };
+		AA09E14C21B64DC500611CD9 /* ic_tab_legal_tender_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_tab_legal_tender_pressed.png; sourceTree = "<group>"; };
+		AA09E14D21B64DC500611CD9 /* btn_id_front.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_id_front.png; sourceTree = "<group>"; };
+		AA09E14E21B64DC500611CD9 /* ic_home_trumpet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_home_trumpet.png; sourceTree = "<group>"; };
+		AA09E14F21B64DC500611CD9 /* referee_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = referee_bg.png; sourceTree = "<group>"; };
+		AA09E15021B64DC500611CD9 /* ic_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_add.png; sourceTree = "<group>"; };
+		AA09E15121B64DC500611CD9 /* btn_id_rear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_id_rear.png; sourceTree = "<group>"; };
+		AA09E15221B64DC500611CD9 /* ic_login_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_login_close.png; sourceTree = "<group>"; };
+		AA09E15321B64DC500611CD9 /* ic_center_notice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_center_notice.png; sourceTree = "<group>"; };
+		AA09E15421B64DC500611CD9 /* ic_login_open_eye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_login_open_eye.png; sourceTree = "<group>"; };
+		AA09E15521B64DC500611CD9 /* ic_tab_legal_tender_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_tab_legal_tender_default.png; sourceTree = "<group>"; };
+		AA09E15621B64DC500611CD9 /* ic_nav_home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_nav_home.png; sourceTree = "<group>"; };
+		AA09E15721B64DC500611CD9 /* tag_indexes_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tag_indexes_up.png; sourceTree = "<group>"; };
+		AA09E15821B64DC500611CD9 /* face_id.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face_id.png; sourceTree = "<group>"; };
+		AA09E15921B64DC500611CD9 /* ic_tab_mine_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_tab_mine_pressed.png; sourceTree = "<group>"; };
+		AA09E15A21B64DC500611CD9 /* ic_delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_delete.png; sourceTree = "<group>"; };
+		AA09E15B21B64DC500611CD9 /* tag_indexes_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tag_indexes_down.png; sourceTree = "<group>"; };
+		AA09E15C21B64DC500611CD9 /* tag_wechat_pay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tag_wechat_pay.png; sourceTree = "<group>"; };
+		AA09E15D21B64DC500611CD9 /* ic_tab_home_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_tab_home_default.png; sourceTree = "<group>"; };
+		AA09E15E21B64DC500611CD9 /* tag_corner_mark_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tag_corner_mark_pressed.png; sourceTree = "<group>"; };
+		AA09E15F21B64DC500611CD9 /* ic_tab_deal_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_tab_deal_pressed.png; sourceTree = "<group>"; };
+		AA09E16021B64DC500611CD9 /* add_pictures.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add_pictures.png; sourceTree = "<group>"; };
+		AA09E16121B64DC500611CD9 /* tag_bank_card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tag_bank_card.png; sourceTree = "<group>"; };
+		AA09E16221B64DC500611CD9 /* ic_refresh_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_refresh_login.png; sourceTree = "<group>"; };
+		AA09E16321B64DC500611CD9 /* ic_login_check_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_login_check_default.png; sourceTree = "<group>"; };
+		AA09E16421B64DC500611CD9 /* ic_nav_search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_nav_search.png; sourceTree = "<group>"; };
+		AA09E16521B64DC500611CD9 /* fingerprint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fingerprint.png; sourceTree = "<group>"; };
+		AA09E16621B64DC500611CD9 /* ic_search_coin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_search_coin.png; sourceTree = "<group>"; };
+		AA09E16721B64DC500611CD9 /* ic_audit_succeed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_audit_succeed.png; sourceTree = "<group>"; };
+		AA09E16821B64DC500611CD9 /* update_title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = update_title.png; sourceTree = "<group>"; };
+		AA09E16921B64DC500611CD9 /* ic_nav_back_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_nav_back_white.png; sourceTree = "<group>"; };
+		AA09E16A21B64DC500611CD9 /* ic_visible.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_visible.png; sourceTree = "<group>"; };
+		AA09E16B21B64DC500611CD9 /* ic_tab_wallet_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_tab_wallet_default.png; sourceTree = "<group>"; };
+		AA09E16C21B64DC500611CD9 /* ic_center_payment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_center_payment.png; sourceTree = "<group>"; };
+		AA09E16D21B64DC500611CD9 /* ic_delete_coin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_delete_coin.png; sourceTree = "<group>"; };
+		AA09E16E21B64DC500611CD9 /* ic_nav_trading_record.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_nav_trading_record.png; sourceTree = "<group>"; };
+		AA09E16F21B64DC500611CD9 /* ic_scan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_scan.png; sourceTree = "<group>"; };
+		AA09E17021B64DC500611CD9 /* ic_logo_about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_logo_about.png; sourceTree = "<group>"; };
+		AA09E17121B64DC500611CD9 /* tag_sale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tag_sale.png; sourceTree = "<group>"; };
+		AA09E17221B64DC500611CD9 /* ic_tab_wallet_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_tab_wallet_pressed.png; sourceTree = "<group>"; };
+		AA09E17321B64DC500611CD9 /* tag_alipay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tag_alipay.png; sourceTree = "<group>"; };
+		AA09E17421B64DC500611CD9 /* wallet-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wallet-bg.png"; sourceTree = "<group>"; };
+		AA09E17521B64DC500611CD9 /* ic_slide_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_slide_login.png; sourceTree = "<group>"; };
+		AA09E17621B64DC500611CD9 /* ic_nav_k_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_nav_k_line.png; sourceTree = "<group>"; };
+		AA09E17721B64DC500611CD9 /* tag_buy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tag_buy.png; sourceTree = "<group>"; };
+		AA09E17821B64DC500611CD9 /* btn_id_front_sign.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_id_front_sign.png; sourceTree = "<group>"; };
+		AA09E17921B64DC500611CD9 /* ic_login_check_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_login_check_pressed.png; sourceTree = "<group>"; };
+		AA09E17A21B64DC500611CD9 /* ic_center_about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_center_about.png; sourceTree = "<group>"; };
+		AA09E17B21B64DC500611CD9 /* tag_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tag_green.png; sourceTree = "<group>"; };
+		AA09E17C21B64DC500611CD9 /* ic_center_security.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_center_security.png; sourceTree = "<group>"; };
+		AA09E17D21B64DC500611CD9 /* ic_center_rebates.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_center_rebates.png; sourceTree = "<group>"; };
+		AA09E17F21B64DC500611CD9 /* ic_login_close_eye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_login_close_eye.png; sourceTree = "<group>"; };
+		AA09E18021B64DC500611CD9 /* ic_tab_mine_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_tab_mine_default.png; sourceTree = "<group>"; };
+		AA09E18121B64DC500611CD9 /* ic_nav_back_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_nav_back_black.png; sourceTree = "<group>"; };
+		AA09E18221B64DC500611CD9 /* tag_vip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tag_vip.png; sourceTree = "<group>"; };
+		AA09E18321B64DC500611CD9 /* ic_tab_deal_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_tab_deal_default.png; sourceTree = "<group>"; };
+		AA09E18421B64DC500611CD9 /* tag_corner_mark_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tag_corner_mark_default.png; sourceTree = "<group>"; };
+		AA09E18521B64DC500611CD9 /* nav_tag_corner_mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_tag_corner_mark.png; sourceTree = "<group>"; };
+		AA09E18621B64DC500611CD9 /* ic_tab_home_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_tab_home_pressed.png; sourceTree = "<group>"; };
+		AA09E18721B64DC500611CD9 /* ic_login_area_next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_login_area_next.png; sourceTree = "<group>"; };
+		AA09E18821B64DC500611CD9 /* nav_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_logo.png; sourceTree = "<group>"; };
+		AA09E18921B64DC500611CD9 /* ic_invisible.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_invisible.png; sourceTree = "<group>"; };
+		AA09E18A21B64DC500611CD9 /* tag_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tag_red.png; sourceTree = "<group>"; };
+		AA09E18B21B64DC500611CD9 /* ic_tab_legal_tender_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_tab_legal_tender_pressed.png; sourceTree = "<group>"; };
+		AA09E18C21B64DC500611CD9 /* btn_id_front.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_id_front.png; sourceTree = "<group>"; };
+		AA09E18D21B64DC500611CD9 /* ic_home_trumpet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_home_trumpet.png; sourceTree = "<group>"; };
+		AA09E18E21B64DC500611CD9 /* referee_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = referee_bg.png; sourceTree = "<group>"; };
+		AA09E18F21B64DC500611CD9 /* ic_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_add.png; sourceTree = "<group>"; };
+		AA09E19021B64DC500611CD9 /* btn_id_rear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_id_rear.png; sourceTree = "<group>"; };
+		AA09E19121B64DC500611CD9 /* ic_login_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_login_close.png; sourceTree = "<group>"; };
+		AA09E19221B64DC500611CD9 /* ic_center_notice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_center_notice.png; sourceTree = "<group>"; };
+		AA09E19321B64DC500611CD9 /* ic_login_open_eye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_login_open_eye.png; sourceTree = "<group>"; };
+		AA09E19421B64DC500611CD9 /* ic_tab_legal_tender_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_tab_legal_tender_default.png; sourceTree = "<group>"; };
+		AA09E19521B64DC500611CD9 /* ic_nav_home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_nav_home.png; sourceTree = "<group>"; };
+		AA09E19621B64DC500611CD9 /* tag_indexes_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tag_indexes_up.png; sourceTree = "<group>"; };
+		AA09E19721B64DC500611CD9 /* face_id.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face_id.png; sourceTree = "<group>"; };
+		AA09E19821B64DC500611CD9 /* ic_tab_mine_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_tab_mine_pressed.png; sourceTree = "<group>"; };
+		AA09E19921B64DC500611CD9 /* ic_delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_delete.png; sourceTree = "<group>"; };
+		AA09E19A21B64DC500611CD9 /* tag_indexes_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tag_indexes_down.png; sourceTree = "<group>"; };
+		AA09E19B21B64DC500611CD9 /* tag_wechat_pay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tag_wechat_pay.png; sourceTree = "<group>"; };
+		AA09E19C21B64DC500611CD9 /* ic_tab_home_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_tab_home_default.png; sourceTree = "<group>"; };
+		AA09E19D21B64DC500611CD9 /* tag_corner_mark_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tag_corner_mark_pressed.png; sourceTree = "<group>"; };
+		AA09E19E21B64DC500611CD9 /* ic_tab_deal_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_tab_deal_pressed.png; sourceTree = "<group>"; };
+		AA09E19F21B64DC500611CD9 /* add_pictures.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add_pictures.png; sourceTree = "<group>"; };
+		AA09E1A021B64DC500611CD9 /* tag_bank_card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tag_bank_card.png; sourceTree = "<group>"; };
+		AA09E1A121B64DC500611CD9 /* ic_refresh_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_refresh_login.png; sourceTree = "<group>"; };
+		AA09E1A221B64DC500611CD9 /* ic_login_check_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_login_check_default.png; sourceTree = "<group>"; };
+		AA09E1A321B64DC500611CD9 /* ic_nav_search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_nav_search.png; sourceTree = "<group>"; };
+		AA09E1A421B64DC500611CD9 /* fingerprint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fingerprint.png; sourceTree = "<group>"; };
+		AA09E1A521B64DC500611CD9 /* ic_search_coin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_search_coin.png; sourceTree = "<group>"; };
+		AA09E1A621B64DC500611CD9 /* ic_audit_succeed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_audit_succeed.png; sourceTree = "<group>"; };
+		AA09E1A721B64DC500611CD9 /* update_title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = update_title.png; sourceTree = "<group>"; };
+		AA09E1A821B64DC500611CD9 /* ic_nav_back_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_nav_back_white.png; sourceTree = "<group>"; };
+		AA09E1A921B64DC500611CD9 /* ic_visible.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_visible.png; sourceTree = "<group>"; };
+		AA09E1AA21B64DC500611CD9 /* ic_tab_wallet_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_tab_wallet_default.png; sourceTree = "<group>"; };
+		AA09E1AB21B64DC500611CD9 /* ic_center_payment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_center_payment.png; sourceTree = "<group>"; };
+		AA09E1AC21B64DC500611CD9 /* ic_delete_coin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_delete_coin.png; sourceTree = "<group>"; };
+		AA09E1AD21B64DC500611CD9 /* ic_nav_trading_record.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_nav_trading_record.png; sourceTree = "<group>"; };
+		AA09E1AE21B64DC500611CD9 /* ic_scan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_scan.png; sourceTree = "<group>"; };
+		AA09E1AF21B64DC500611CD9 /* ic_logo_about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_logo_about.png; sourceTree = "<group>"; };
+		AA09E1B021B64DC500611CD9 /* tag_sale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tag_sale.png; sourceTree = "<group>"; };
+		AA09E1B121B64DC500611CD9 /* ic_tab_wallet_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_tab_wallet_pressed.png; sourceTree = "<group>"; };
+		AA09E1B221B64DC500611CD9 /* tag_alipay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tag_alipay.png; sourceTree = "<group>"; };
+		AA09E1B321B64DC500611CD9 /* wallet-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wallet-bg.png"; sourceTree = "<group>"; };
+		AA09E1B421B64DC500611CD9 /* ic_slide_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_slide_login.png; sourceTree = "<group>"; };
+		AA09E1B521B64DC500611CD9 /* ic_nav_k_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_nav_k_line.png; sourceTree = "<group>"; };
+		AA09E1B621B64DC500611CD9 /* tag_buy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tag_buy.png; sourceTree = "<group>"; };
+		AA09E1B721B64DC500611CD9 /* btn_id_front_sign.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_id_front_sign.png; sourceTree = "<group>"; };
+		AA09E1B821B64DC500611CD9 /* ic_login_check_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_login_check_pressed.png; sourceTree = "<group>"; };
+		AA09E1B921B64DC500611CD9 /* ic_center_about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_center_about.png; sourceTree = "<group>"; };
+		AA09E1BA21B64DC500611CD9 /* tag_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tag_green.png; sourceTree = "<group>"; };
+		AA09E1BB21B64DC500611CD9 /* ic_center_security.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_center_security.png; sourceTree = "<group>"; };
+		AA09E1BC21B64DC500611CD9 /* ic_center_rebates.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_center_rebates.png; sourceTree = "<group>"; };
+		AA09E1BD21B64DC500611CD9 /* login_pic_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = login_pic_01.jpg; sourceTree = "<group>"; };
+		AA09E1BE21B64DC500611CD9 /* login_pic_03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = login_pic_03.jpg; sourceTree = "<group>"; };
+		AA09E1BF21B64DC500611CD9 /* login_pic_02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = login_pic_02.jpg; sourceTree = "<group>"; };
+		AA09E1C021B64DC500611CD9 /* login_pic_05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = login_pic_05.jpg; sourceTree = "<group>"; };
+		AA09E1C121B64DC500611CD9 /* login_pic_04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = login_pic_04.jpg; sourceTree = "<group>"; };
+		AA09E1C321B64DC500611CD9 /* 720x1280.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 720x1280.png; sourceTree = "<group>"; };
+		AA09E1C421B64DC500611CD9 /* 1080x1920.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1080x1920.png; sourceTree = "<group>"; };
+		AA09E1C621B64DC500611CD9 /* 144x144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 144x144.png; sourceTree = "<group>"; };
+		AA09E1C721B64DC500611CD9 /* 72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 72x72.png; sourceTree = "<group>"; };
+		AA09E1C821B64DC500611CD9 /* 96x96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 96x96.png; sourceTree = "<group>"; };
+		AA09E1C921B64DC500611CD9 /* 512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 512x512.png; sourceTree = "<group>"; };
+		AA09E1CC21B64DC500611CD9 /* 关于我们.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关于我们.png"; sourceTree = "<group>"; };
+		AA09E1CD21B64DC500611CD9 /* 手机注册.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "手机注册.png"; sourceTree = "<group>"; };
+		AA09E1CE21B64DC500611CD9 /* 实名认证.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "实名认证.png"; sourceTree = "<group>"; };
+		AA09E1CF21B64DC500611CD9 /* 我要申诉.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我要申诉.png"; sourceTree = "<group>"; };
+		AA09E1D021B64DC500611CD9 /* 登录.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "登录.png"; sourceTree = "<group>"; };
+		AA09E1D121B64DC500611CD9 /* 交易记录_未完成.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "交易记录_未完成.png"; sourceTree = "<group>"; };
+		AA09E1D221B64DC500611CD9 /* 公告.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "公告.png"; sourceTree = "<group>"; };
+		AA09E1D321B64DC500611CD9 /* 修改绑定邮箱-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "修改绑定邮箱-2.png"; sourceTree = "<group>"; };
+		AA09E1D421B64DC500611CD9 /* 资讯内容.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "资讯内容.png"; sourceTree = "<group>"; };
+		AA09E1D521B64DC500611CD9 /* 资产.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "资产.png"; sourceTree = "<group>"; };
+		AA09E1D621B64DC500611CD9 /* 推荐返佣.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "推荐返佣.png"; sourceTree = "<group>"; };
+		AA09E1D721B64DC500611CD9 /* 成交明细.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "成交明细.png"; sourceTree = "<group>"; };
+		AA09E1D821B64DC500611CD9 /* 买出.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "买出.png"; sourceTree = "<group>"; };
+		AA09E1D921B64DC500611CD9 /* 指纹验证.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "指纹验证.png"; sourceTree = "<group>"; };
+		AA09E1DA21B64DC500611CD9 /* 历史委托.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "历史委托.png"; sourceTree = "<group>"; };
+		AA09E1DB21B64DC500611CD9 /* 法币_交易单.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "法币_交易单.png"; sourceTree = "<group>"; };
+		AA09E1DC21B64DC500611CD9 /* 安全验证.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "安全验证.png"; sourceTree = "<group>"; };
+		AA09E1DD21B64DC500611CD9 /* 搜索.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "搜索.png"; sourceTree = "<group>"; };
+		AA09E1DE21B64DC500611CD9 /* 法币_选择币种.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "法币_选择币种.png"; sourceTree = "<group>"; };
+		AA09E1DF21B64DC500611CD9 /* 当前委托.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "当前委托.png"; sourceTree = "<group>"; };
+		AA09E1E021B64DC500611CD9 /* 行情交易.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "行情交易.png"; sourceTree = "<group>"; };
+		AA09E1E121B64DC500611CD9 /* 安全中心.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "安全中心.png"; sourceTree = "<group>"; };
+		AA09E1E221B64DC500611CD9 /* 修改绑定邮箱.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "修改绑定邮箱.png"; sourceTree = "<group>"; };
+		AA09E1E321B64DC500611CD9 /* 发布交易-我要出售.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "发布交易-我要出售.png"; sourceTree = "<group>"; };
+		AA09E1E421B64DC500611CD9 /* 账单.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "账单.png"; sourceTree = "<group>"; };
+		AA09E1E521B64DC500611CD9 /* 卖家订单详情-对方已支付.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "卖家订单详情-对方已支付.png"; sourceTree = "<group>"; };
+		AA09E1E621B64DC500611CD9 /* K线图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "K线图.png"; sourceTree = "<group>"; };
+		AA09E1E721B64DC500611CD9 /* 返佣记录.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返佣记录.png"; sourceTree = "<group>"; };
+		AA09E1E821B64DC500611CD9 /* 首页.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页.png"; sourceTree = "<group>"; };
+		AA09E1E921B64DC500611CD9 /* 我的.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的.png"; sourceTree = "<group>"; };
+		AA09E1EA21B64DC500611CD9 /* 法币_购买.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "法币_购买.png"; sourceTree = "<group>"; };
+		AA09E1EB21B64DC500611CD9 /* 法币_确认购买.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "法币_确认购买.png"; sourceTree = "<group>"; };
+		AA09E1EC21B64DC500611CD9 /* 邮箱注册_拼图验证.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "邮箱注册_拼图验证.png"; sourceTree = "<group>"; };
+		AA09E1ED21B64DC500611CD9 /* 资讯.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "资讯.png"; sourceTree = "<group>"; };
+		AA09E1EE21B64DC500611CD9 /* 公告内容.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "公告内容.png"; sourceTree = "<group>"; };
+		AA09E1F021B64DC500611CD9 /* add_pictures@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add_pictures@3x.png"; sourceTree = "<group>"; };
+		AA09E1F121B64DC500611CD9 /* ic_center_about@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_center_about@2x.png"; sourceTree = "<group>"; };
+		AA09E1F221B64DC500611CD9 /* slide_bar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slide_bar@2x.png"; sourceTree = "<group>"; };
+		AA09E1F321B64DC500611CD9 /* tag_indexes_up@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tag_indexes_up@3x.png"; sourceTree = "<group>"; };
+		AA09E1F421B64DC500611CD9 /* ic_nav_back_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_nav_back_white@2x.png"; sourceTree = "<group>"; };
+		AA09E1F521B64DC500611CD9 /* ic_tab_deal_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_tab_deal_pressed@2x.png"; sourceTree = "<group>"; };
+		AA09E1F621B64DC500611CD9 /* ic_tab_home_pressed@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_tab_home_pressed@3x.png"; sourceTree = "<group>"; };
+		AA09E1F721B64DC500611CD9 /* ic_invisible@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_invisible@2x.png"; sourceTree = "<group>"; };
+		AA09E1F821B64DC500611CD9 /* tag_corner_mark_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tag_corner_mark_default@2x.png"; sourceTree = "<group>"; };
+		AA09E1F921B64DC500611CD9 /* tag_vip@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tag_vip@3x.png"; sourceTree = "<group>"; };
+		AA09E1FA21B64DC500611CD9 /* ic_tab_mine_pressed@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_tab_mine_pressed@3x.png"; sourceTree = "<group>"; };
+		AA09E1FB21B64DC500611CD9 /* ic_nav_search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_nav_search@2x.png"; sourceTree = "<group>"; };
+		AA09E1FC21B64DC500611CD9 /* ic_tab_legal_tender_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_tab_legal_tender_default@2x.png"; sourceTree = "<group>"; };
+		AA09E1FD21B64DC500611CD9 /* ic_search_coin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_search_coin@2x.png"; sourceTree = "<group>"; };
+		AA09E1FE21B64DC500611CD9 /* ic_login_close@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_login_close@3x.png"; sourceTree = "<group>"; };
+		AA09E1FF21B64DC500611CD9 /* tag_red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tag_red@2x.png"; sourceTree = "<group>"; };
+		AA09E20021B64DC500611CD9 /* ic_login_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_login_close@2x.png"; sourceTree = "<group>"; };
+		AA09E20121B64DC500611CD9 /* tag_red@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tag_red@3x.png"; sourceTree = "<group>"; };
+		AA09E20221B64DC500611CD9 /* ic_search_coin@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_search_coin@3x.png"; sourceTree = "<group>"; };
+		AA09E20321B64DC500611CD9 /* ic_tab_legal_tender_default@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_tab_legal_tender_default@3x.png"; sourceTree = "<group>"; };
+		AA09E20421B64DC500611CD9 /* ic_tab_mine_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_tab_mine_pressed@2x.png"; sourceTree = "<group>"; };
+		AA09E20521B64DC500611CD9 /* ic_nav_search@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_nav_search@3x.png"; sourceTree = "<group>"; };
+		AA09E20621B64DC500611CD9 /* tag_vip@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tag_vip@2x.png"; sourceTree = "<group>"; };
+		AA09E20721B64DC500611CD9 /* tag_corner_mark_default@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tag_corner_mark_default@3x.png"; sourceTree = "<group>"; };
+		AA09E20821B64DC500611CD9 /* ic_invisible@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_invisible@3x.png"; sourceTree = "<group>"; };
+		AA09E20921B64DC500611CD9 /* ic_tab_deal_pressed@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_tab_deal_pressed@3x.png"; sourceTree = "<group>"; };
+		AA09E20A21B64DC500611CD9 /* ic_tab_home_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_tab_home_pressed@2x.png"; sourceTree = "<group>"; };
+		AA09E20B21B64DC500611CD9 /* ic_nav_back_white@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_nav_back_white@3x.png"; sourceTree = "<group>"; };
+		AA09E20C21B64DC500611CD9 /* slide_bar@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slide_bar@3x.png"; sourceTree = "<group>"; };
+		AA09E20D21B64DC500611CD9 /* tag_indexes_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tag_indexes_up@2x.png"; sourceTree = "<group>"; };
+		AA09E20E21B64DC500611CD9 /* add_pictures@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add_pictures@2x.png"; sourceTree = "<group>"; };
+		AA09E20F21B64DC500611CD9 /* ic_center_about@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_center_about@3x.png"; sourceTree = "<group>"; };
+		AA09E21021B64DC500611CD9 /* btn_id_front@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_id_front@3x.png"; sourceTree = "<group>"; };
+		AA09E21121B64DC500611CD9 /* ic_visible@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_visible@3x.png"; sourceTree = "<group>"; };
+		AA09E21221B64DC500611CD9 /* face_id@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "face_id@3x.png"; sourceTree = "<group>"; };
+		AA09E21321B64DC500611CD9 /* ic_scan@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_scan@2x.png"; sourceTree = "<group>"; };
+		AA09E21421B64DC500611CD9 /* ic_slide_login_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_slide_login_pressed@2x.png"; sourceTree = "<group>"; };
+		AA09E21521B64DC500611CD9 /* ic_delete@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_delete@3x.png"; sourceTree = "<group>"; };
+		AA09E21621B64DC500611CD9 /* ic_tab_deal_default@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_tab_deal_default@3x.png"; sourceTree = "<group>"; };
+		AA09E21721B64DC500611CD9 /* ic_tab_home_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_tab_home_default@2x.png"; sourceTree = "<group>"; };
+		AA09E21821B64DC500611CD9 /* ic_delete_coin@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_delete_coin@3x.png"; sourceTree = "<group>"; };
+		AA09E21921B64DC500611CD9 /* nav_logo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_logo@3x.png"; sourceTree = "<group>"; };
+		AA09E21A21B64DC500611CD9 /* tag_indexes_down@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tag_indexes_down@3x.png"; sourceTree = "<group>"; };
+		AA09E21B21B64DC500611CD9 /* tag_corner_mark_pressed@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tag_corner_mark_pressed@3x.png"; sourceTree = "<group>"; };
+		AA09E21C21B64DC500611CD9 /* tag_wechat_pay@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tag_wechat_pay@3x.png"; sourceTree = "<group>"; };
+		AA09E21D21B64DC500611CD9 /* ic_tab_mine_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_tab_mine_default@2x.png"; sourceTree = "<group>"; };
+		AA09E21E21B64DC500611CD9 /* ic_tab_legal_tender_pressed@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_tab_legal_tender_pressed@3x.png"; sourceTree = "<group>"; };
+		AA09E21F21B64DC500611CD9 /* ic_nav_trading_record@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_nav_trading_record@2x.png"; sourceTree = "<group>"; };
+		AA09E22021B64DC500611CD9 /* slide_bar_pressed@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slide_bar_pressed@3x.png"; sourceTree = "<group>"; };
+		AA09E22121B64DC500611CD9 /* tag_alipay@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tag_alipay@3x.png"; sourceTree = "<group>"; };
+		AA09E22221B64DC500611CD9 /* btn_id_front_sign@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_id_front_sign@2x.png"; sourceTree = "<group>"; };
+		AA09E22321B64DC500611CD9 /* btn_id_front_sign@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_id_front_sign@3x.png"; sourceTree = "<group>"; };
+		AA09E22421B64DC500611CD9 /* tag_alipay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tag_alipay@2x.png"; sourceTree = "<group>"; };
+		AA09E22521B64DC500611CD9 /* slide_bar_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slide_bar_pressed@2x.png"; sourceTree = "<group>"; };
+		AA09E22621B64DC500611CD9 /* ic_tab_legal_tender_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_tab_legal_tender_pressed@2x.png"; sourceTree = "<group>"; };
+		AA09E22721B64DC500611CD9 /* ic_nav_trading_record@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_nav_trading_record@3x.png"; sourceTree = "<group>"; };
+		AA09E22821B64DC500611CD9 /* ic_tab_mine_default@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_tab_mine_default@3x.png"; sourceTree = "<group>"; };
+		AA09E22921B64DC500611CD9 /* tag_wechat_pay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tag_wechat_pay@2x.png"; sourceTree = "<group>"; };
+		AA09E22A21B64DC500611CD9 /* tag_corner_mark_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tag_corner_mark_pressed@2x.png"; sourceTree = "<group>"; };
+		AA09E22B21B64DC500611CD9 /* tag_indexes_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tag_indexes_down@2x.png"; sourceTree = "<group>"; };
+		AA09E22C21B64DC600611CD9 /* ic_delete_coin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_delete_coin@2x.png"; sourceTree = "<group>"; };
+		AA09E22D21B64DC600611CD9 /* nav_logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_logo@2x.png"; sourceTree = "<group>"; };
+		AA09E22E21B64DC600611CD9 /* ic_tab_deal_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_tab_deal_default@2x.png"; sourceTree = "<group>"; };
+		AA09E22F21B64DC600611CD9 /* ic_tab_home_default@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_tab_home_default@3x.png"; sourceTree = "<group>"; };
+		AA09E23021B64DC600611CD9 /* ic_delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_delete@2x.png"; sourceTree = "<group>"; };
+		AA09E23121B64DC600611CD9 /* ic_slide_login_pressed@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_slide_login_pressed@3x.png"; sourceTree = "<group>"; };
+		AA09E23221B64DC600611CD9 /* face_id@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "face_id@2x.png"; sourceTree = "<group>"; };
+		AA09E23321B64DC600611CD9 /* ic_scan@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_scan@3x.png"; sourceTree = "<group>"; };
+		AA09E23421B64DC600611CD9 /* ic_visible@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_visible@2x.png"; sourceTree = "<group>"; };
+		AA09E23521B64DC600611CD9 /* btn_id_front@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_id_front@2x.png"; sourceTree = "<group>"; };
+		AA09E23621B64DC600611CD9 /* tag_sale@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tag_sale@2x.png"; sourceTree = "<group>"; };
+		AA09E23721B64DC600611CD9 /* ic_login_area_next@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_login_area_next@3x.png"; sourceTree = "<group>"; };
+		AA09E23821B64DC600611CD9 /* nav_tag_corner_mark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_tag_corner_mark@2x.png"; sourceTree = "<group>"; };
+		AA09E23921B64DC600611CD9 /* ic_home_trumpet@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_home_trumpet@2x.png"; sourceTree = "<group>"; };
+		AA09E23A21B64DC600611CD9 /* ic_center_notice@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_center_notice@3x.png"; sourceTree = "<group>"; };
+		AA09E23B21B64DC600611CD9 /* fingerprint@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fingerprint@2x.png"; sourceTree = "<group>"; };
+		AA09E23C21B64DC600611CD9 /* tag_green@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tag_green@2x.png"; sourceTree = "<group>"; };
+		AA09E23D21B64DC600611CD9 /* ic_login_check_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_login_check_pressed@2x.png"; sourceTree = "<group>"; };
+		AA09E23E21B64DC600611CD9 /* wallet-bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wallet-bg@2x.png"; sourceTree = "<group>"; };
+		AA09E23F21B64DC600611CD9 /* ic_refresh_login@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_refresh_login@3x.png"; sourceTree = "<group>"; };
+		AA09E24021B64DC600611CD9 /* ic_tab_wallet_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_tab_wallet_default@2x.png"; sourceTree = "<group>"; };
+		AA09E24121B64DC600611CD9 /* ic_nav_k_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_nav_k_line@2x.png"; sourceTree = "<group>"; };
+		AA09E24221B64DC600611CD9 /* ic_audit_succeed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_audit_succeed@2x.png"; sourceTree = "<group>"; };
+		AA09E24321B64DC600611CD9 /* ic_center_rebates@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_center_rebates@3x.png"; sourceTree = "<group>"; };
+		AA09E24421B64DC600611CD9 /* referee_bg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "referee_bg@3x.png"; sourceTree = "<group>"; };
+		AA09E24521B64DC600611CD9 /* tag_bank_card@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tag_bank_card@2x.png"; sourceTree = "<group>"; };
+		AA09E24621B64DC600611CD9 /* ic_nav_back_black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_nav_back_black@2x.png"; sourceTree = "<group>"; };
+		AA09E24721B64DC600611CD9 /* ic_logo_about@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_logo_about@3x.png"; sourceTree = "<group>"; };
+		AA09E24821B64DC600611CD9 /* ic_nav_back_black@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_nav_back_black@3x.png"; sourceTree = "<group>"; };
+		AA09E24921B64DC600611CD9 /* ic_logo_about@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_logo_about@2x.png"; sourceTree = "<group>"; };
+		AA09E24A21B64DC600611CD9 /* tag_bank_card@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tag_bank_card@3x.png"; sourceTree = "<group>"; };
+		AA09E24B21B64DC600611CD9 /* referee_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "referee_bg@2x.png"; sourceTree = "<group>"; };
+		AA09E24C21B64DC600611CD9 /* ic_audit_succeed@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_audit_succeed@3x.png"; sourceTree = "<group>"; };
+		AA09E24D21B64DC600611CD9 /* ic_center_rebates@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_center_rebates@2x.png"; sourceTree = "<group>"; };
+		AA09E24E21B64DC600611CD9 /* ic_nav_k_line@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_nav_k_line@3x.png"; sourceTree = "<group>"; };
+		AA09E24F21B64DC600611CD9 /* ic_tab_wallet_default@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_tab_wallet_default@3x.png"; sourceTree = "<group>"; };
+		AA09E25021B64DC600611CD9 /* ic_refresh_login@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_refresh_login@2x.png"; sourceTree = "<group>"; };
+		AA09E25121B64DC600611CD9 /* wallet-bg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wallet-bg@3x.png"; sourceTree = "<group>"; };
+		AA09E25221B64DC600611CD9 /* ic_login_check_pressed@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_login_check_pressed@3x.png"; sourceTree = "<group>"; };
+		AA09E25321B64DC600611CD9 /* tag_green@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tag_green@3x.png"; sourceTree = "<group>"; };
+		AA09E25421B64DC600611CD9 /* ic_center_notice@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_center_notice@2x.png"; sourceTree = "<group>"; };
+		AA09E25521B64DC600611CD9 /* fingerprint@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fingerprint@3x.png"; sourceTree = "<group>"; };
+		AA09E25621B64DC600611CD9 /* ic_login_area_next@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_login_area_next@2x.png"; sourceTree = "<group>"; };
+		AA09E25721B64DC600611CD9 /* nav_tag_corner_mark@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_tag_corner_mark@3x.png"; sourceTree = "<group>"; };
+		AA09E25821B64DC600611CD9 /* ic_home_trumpet@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_home_trumpet@3x.png"; sourceTree = "<group>"; };
+		AA09E25921B64DC600611CD9 /* tag_sale@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tag_sale@3x.png"; sourceTree = "<group>"; };
+		AA09E25A21B64DC600611CD9 /* ic_add@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_add@2x.png"; sourceTree = "<group>"; };
+		AA09E25B21B64DC600611CD9 /* login_pic_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_pic_01.png; sourceTree = "<group>"; };
+		AA09E25C21B64DC600611CD9 /* ic_login_open_eye@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_login_open_eye@3x.png"; sourceTree = "<group>"; };
+		AA09E25D21B64DC600611CD9 /* ic_nav_home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_nav_home@2x.png"; sourceTree = "<group>"; };
+		AA09E25E21B64DC600611CD9 /* ic_login_check_default@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_login_check_default@3x.png"; sourceTree = "<group>"; };
+		AA09E25F21B64DC600611CD9 /* ic_center_security@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_center_security@2x.png"; sourceTree = "<group>"; };
+		AA09E26021B64DC600611CD9 /* login_pic_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_pic_03.png; sourceTree = "<group>"; };
+		AA09E26121B64DC600611CD9 /* ic_login_close_eye@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_login_close_eye@2x.png"; sourceTree = "<group>"; };
+		AA09E26221B64DC600611CD9 /* ic_tab_wallet_pressed@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_tab_wallet_pressed@3x.png"; sourceTree = "<group>"; };
+		AA09E26321B64DC600611CD9 /* ic_slide_login@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_slide_login@3x.png"; sourceTree = "<group>"; };
+		AA09E26421B64DC600611CD9 /* btn_id_rear@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_id_rear@3x.png"; sourceTree = "<group>"; };
+		AA09E26521B64DC600611CD9 /* tag_buy@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tag_buy@3x.png"; sourceTree = "<group>"; };
+		AA09E26621B64DC600611CD9 /* login_pic_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_pic_02.png; sourceTree = "<group>"; };
+		AA09E26721B64DC600611CD9 /* ic_center_payment@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_center_payment@3x.png"; sourceTree = "<group>"; };
+		AA09E26821B64DC600611CD9 /* ic_home_nav_logo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_home_nav_logo@3x.png"; sourceTree = "<group>"; };
+		AA09E26921B64DC600611CD9 /* ic_home_nav_logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_home_nav_logo@2x.png"; sourceTree = "<group>"; };
+		AA09E26A21B64DC600611CD9 /* ic_center_payment@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_center_payment@2x.png"; sourceTree = "<group>"; };
+		AA09E26B21B64DC600611CD9 /* tag_buy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tag_buy@2x.png"; sourceTree = "<group>"; };
+		AA09E26C21B64DC600611CD9 /* ic_slide_login@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_slide_login@2x.png"; sourceTree = "<group>"; };
+		AA09E26D21B64DC600611CD9 /* btn_id_rear@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_id_rear@2x.png"; sourceTree = "<group>"; };
+		AA09E26E21B64DC600611CD9 /* ic_tab_wallet_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_tab_wallet_pressed@2x.png"; sourceTree = "<group>"; };
+		AA09E26F21B64DC600611CD9 /* ic_login_close_eye@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_login_close_eye@3x.png"; sourceTree = "<group>"; };
+		AA09E27021B64DC600611CD9 /* ic_center_security@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_center_security@3x.png"; sourceTree = "<group>"; };
+		AA09E27121B64DC600611CD9 /* ic_nav_home@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_nav_home@3x.png"; sourceTree = "<group>"; };
+		AA09E27221B64DC600611CD9 /* ic_login_check_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_login_check_default@2x.png"; sourceTree = "<group>"; };
+		AA09E27321B64DC600611CD9 /* ic_login_open_eye@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_login_open_eye@2x.png"; sourceTree = "<group>"; };
+		AA09E27421B64DC600611CD9 /* login_pic_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_pic_05.png; sourceTree = "<group>"; };
+		AA09E27521B64DC600611CD9 /* ic_add@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_add@3x.png"; sourceTree = "<group>"; };
+		AA09E27621B64DC600611CD9 /* login_pic_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_pic_04.png; sourceTree = "<group>"; };
+		AA09E27821B64DC600611CD9 /* 640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 640x960.png; sourceTree = "<group>"; };
+		AA09E27921B64DC600611CD9 /* 1125x2436.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1125x2436.png; sourceTree = "<group>"; };
+		AA09E27A21B64DC600611CD9 /* 750x1624.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 750x1624.png; sourceTree = "<group>"; };
+		AA09E27B21B64DC600611CD9 /* 750x1334.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 750x1334.png; sourceTree = "<group>"; };
+		AA09E27C21B64DC600611CD9 /* 640x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 640x1136.png; sourceTree = "<group>"; };
+		AA09E27D21B64DC600611CD9 /* 1242x2208.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1242x2208.png; sourceTree = "<group>"; };
+		AA09E27F21B64DC600611CD9 /* 1024@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1024@1x.png"; sourceTree = "<group>"; };
+		AA09E28021B64DC600611CD9 /* 20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20@3x.png"; sourceTree = "<group>"; };
+		AA09E28121B64DC600611CD9 /* 20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20@2x.png"; sourceTree = "<group>"; };
+		AA09E28221B64DC600611CD9 /* 60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "60@3x.png"; sourceTree = "<group>"; };
+		AA09E28321B64DC600611CD9 /* 29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "29@2x.png"; sourceTree = "<group>"; };
+		AA09E28421B64DC600611CD9 /* 29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "29@3x.png"; sourceTree = "<group>"; };
+		AA09E28521B64DC600611CD9 /* 60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "60@2x.png"; sourceTree = "<group>"; };
+		AA09E28621B64DC600611CD9 /* 40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "40@2x.png"; sourceTree = "<group>"; };
+		AA09E28721B64DC600611CD9 /* 40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "40@3x.png"; sourceTree = "<group>"; };
+		AA09E28921B64DC600611CD9 /* 关于我们.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关于我们.png"; sourceTree = "<group>"; };
+		AA09E28A21B64DC600611CD9 /* 买家订单详情-交易完成.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "买家订单详情-交易完成.png"; sourceTree = "<group>"; };
+		AA09E28B21B64DC600611CD9 /* 申诉提交成功.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "申诉提交成功.png"; sourceTree = "<group>"; };
+		AA09E28C21B64DC600611CD9 /* 卖家订单详情-交易完成.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "卖家订单详情-交易完成.png"; sourceTree = "<group>"; };
+		AA09E28D21B64DC600611CD9 /* 手机注册.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "手机注册.png"; sourceTree = "<group>"; };
+		AA09E28E21B64DC600611CD9 /* 卖家订单详情-待对方支付.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "卖家订单详情-待对方支付.png"; sourceTree = "<group>"; };
+		AA09E28F21B64DC600611CD9 /* 买入.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "买入.png"; sourceTree = "<group>"; };
+		AA09E29021B64DC600611CD9 /* 实名认证.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "实名认证.png"; sourceTree = "<group>"; };
+		AA09E29121B64DC600611CD9 /* 发布交易-我要购买.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "发布交易-我要购买.png"; sourceTree = "<group>"; };
+		AA09E29221B64DC600611CD9 /* 交易记录_已取消.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "交易记录_已取消.png"; sourceTree = "<group>"; };
+		AA09E29321B64DC600611CD9 /* 我要申诉.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我要申诉.png"; sourceTree = "<group>"; };
+		AA09E29421B64DC600611CD9 /* 登录.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "登录.png"; sourceTree = "<group>"; };
+		AA09E29521B64DC600611CD9 /* 交易记录_未完成.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "交易记录_未完成.png"; sourceTree = "<group>"; };
+		AA09E29621B64DC600611CD9 /* 买家订单详情-待支付.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "买家订单详情-待支付.png"; sourceTree = "<group>"; };
+		AA09E29721B64DC600611CD9 /* 公告.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "公告.png"; sourceTree = "<group>"; };
+		AA09E29821B64DC600611CD9 /* 修改绑定邮箱-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "修改绑定邮箱-2.png"; sourceTree = "<group>"; };
+		AA09E29921B64DC600611CD9 /* 资讯内容.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "资讯内容.png"; sourceTree = "<group>"; };
+		AA09E29A21B64DC600611CD9 /* 卖出.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "卖出.png"; sourceTree = "<group>"; };
+		AA09E29B21B64DC600611CD9 /* 个人资料.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "个人资料.png"; sourceTree = "<group>"; };
+		AA09E29C21B64DC600611CD9 /* 资产.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "资产.png"; sourceTree = "<group>"; };
+		AA09E29D21B64DC600611CD9 /* 法币_确认出售.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "法币_确认出售.png"; sourceTree = "<group>"; };
+		AA09E29E21B64DC600611CD9 /* 法币_出售.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "法币_出售.png"; sourceTree = "<group>"; };
+		AA09E29F21B64DC600611CD9 /* 推荐返佣.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "推荐返佣.png"; sourceTree = "<group>"; };
+		AA09E2A021B64DC600611CD9 /* 我的-未认证.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-未认证.png"; sourceTree = "<group>"; };
+		AA09E2A121B64DC600611CD9 /* 成交明细.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "成交明细.png"; sourceTree = "<group>"; };
+		AA09E2A221B64DC600611CD9 /* 买家订单详情-违规.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "买家订单详情-违规.png"; sourceTree = "<group>"; };
+		AA09E2A321B64DC600611CD9 /* 指纹验证.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "指纹验证.png"; sourceTree = "<group>"; };
+		AA09E2A421B64DC600611CD9 /* 历史委托.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "历史委托.png"; sourceTree = "<group>"; };
+		AA09E2A521B64DC600611CD9 /* 法币_交易单.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "法币_交易单.png"; sourceTree = "<group>"; };
+		AA09E2A621B64DC600611CD9 /* 我的-未登录.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-未登录.png"; sourceTree = "<group>"; };
+		AA09E2A721B64DC600611CD9 /* 转出EOS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "转出EOS.png"; sourceTree = "<group>"; };
+		AA09E2A821B64DC600611CD9 /* 忘记邮箱密码.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "忘记邮箱密码.png"; sourceTree = "<group>"; };
+		AA09E2A921B64DC600611CD9 /* 买家订单详情-待对方放币.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "买家订单详情-待对方放币.png"; sourceTree = "<group>"; };
+		AA09E2AA21B64DC600611CD9 /* 安全验证.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "安全验证.png"; sourceTree = "<group>"; };
+		AA09E2AB21B64DC600611CD9 /* 搜索.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "搜索.png"; sourceTree = "<group>"; };
+		AA09E2AC21B64DC600611CD9 /* 法币_选择币种.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "法币_选择币种.png"; sourceTree = "<group>"; };
+		AA09E2AD21B64DC600611CD9 /* 买家订单详情-交易取消.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "买家订单详情-交易取消.png"; sourceTree = "<group>"; };
+		AA09E2AE21B64DC600611CD9 /* 当前委托.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "当前委托.png"; sourceTree = "<group>"; };
+		AA09E2AF21B64DC600611CD9 /* 行情交易.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "行情交易.png"; sourceTree = "<group>"; };
+		AA09E2B021B64DC600611CD9 /* 邮箱注册.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "邮箱注册.png"; sourceTree = "<group>"; };
+		AA09E2B121B64DC600611CD9 /* 安全中心.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "安全中心.png"; sourceTree = "<group>"; };
+		AA09E2B221B64DC600611CD9 /* 发布结果.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "发布结果.png"; sourceTree = "<group>"; };
+		AA09E2B321B64DC600611CD9 /* 修改绑定邮箱.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "修改绑定邮箱.png"; sourceTree = "<group>"; };
+		AA09E2B421B64DC600611CD9 /* 交易记录_已完成.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "交易记录_已完成.png"; sourceTree = "<group>"; };
+		AA09E2B521B64DC600611CD9 /* 我的-实名认证.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-实名认证.png"; sourceTree = "<group>"; };
+		AA09E2B621B64DC600611CD9 /* 发布交易-我要出售.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "发布交易-我要出售.png"; sourceTree = "<group>"; };
+		AA09E2B721B64DC600611CD9 /* 提币.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "提币.png"; sourceTree = "<group>"; };
+		AA09E2B821B64DC600611CD9 /* 买家订单详情-待支付2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "买家订单详情-待支付2.png"; sourceTree = "<group>"; };
+		AA09E2B921B64DC600611CD9 /* 账单.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "账单.png"; sourceTree = "<group>"; };
+		AA09E2BA21B64DC600611CD9 /* 转入EOS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "转入EOS.png"; sourceTree = "<group>"; };
+		AA09E2BB21B64DC600611CD9 /* 卖家订单详情-对方已支付.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "卖家订单详情-对方已支付.png"; sourceTree = "<group>"; };
+		AA09E2BC21B64DC600611CD9 /* K线图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "K线图.png"; sourceTree = "<group>"; };
+		AA09E2BD21B64DC600611CD9 /* 返佣记录.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返佣记录.png"; sourceTree = "<group>"; };
+		AA09E2BE21B64DC600611CD9 /* 卖家订单详情-违规.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "卖家订单详情-违规.png"; sourceTree = "<group>"; };
+		AA09E2BF21B64DC600611CD9 /* 首页.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页.png"; sourceTree = "<group>"; };
+		AA09E2C021B64DC600611CD9 /* 法币_购买.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "法币_购买.png"; sourceTree = "<group>"; };
+		AA09E2C121B64DC600611CD9 /* 法币_确认购买.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "法币_确认购买.png"; sourceTree = "<group>"; };
+		AA09E2C221B64DC600611CD9 /* 邮箱注册_拼图验证.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "邮箱注册_拼图验证.png"; sourceTree = "<group>"; };
+		AA09E2C321B64DC600611CD9 /* 资讯.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "资讯.png"; sourceTree = "<group>"; };
+		AA09E2C421B64DC600611CD9 /* 公告内容.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "公告内容.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +931,7 @@
 		AA09E0E521B64DA700611CD9 /* Smile3 */ = {
 			isa = PBXGroup;
 			children = (
+				AA09E11821B64DC500611CD9 /* Smile intl-大莫豪城交易所 */,
 				AA09E0E621B64DA700611CD9 /* AppDelegate.h */,
 				AA09E0E721B64DA700611CD9 /* AppDelegate.m */,
 				AA09E0E921B64DA700611CD9 /* ViewController.h */,
@@ -130,6 +961,532 @@
 				AA09E10C21B64DA800611CD9 /* Info.plist */,
 			);
 			path = Smile3UITests;
+			sourceTree = "<group>";
+		};
+		AA09E11821B64DC500611CD9 /* Smile intl-大莫豪城交易所 */ = {
+			isa = PBXGroup;
+			children = (
+				AA09E11921B64DC500611CD9 /* 安卓 */,
+				AA09E1CA21B64DC500611CD9 /* IOS */,
+				AA09E28821B64DC600611CD9 /* 设计稿 */,
+			);
+			path = "Smile intl-大莫豪城交易所";
+			sourceTree = "<group>";
+		};
+		AA09E11921B64DC500611CD9 /* 安卓 */ = {
+			isa = PBXGroup;
+			children = (
+				AA09E11A21B64DC500611CD9 /* 标注 */,
+				AA09E13E21B64DC500611CD9 /* 切图 */,
+				AA09E1C221B64DC500611CD9 /* 启动页 */,
+				AA09E1C521B64DC500611CD9 /* 启动图标 */,
+			);
+			path = "安卓";
+			sourceTree = "<group>";
+		};
+		AA09E11A21B64DC500611CD9 /* 标注 */ = {
+			isa = PBXGroup;
+			children = (
+				AA09E11B21B64DC500611CD9 /* 关于我们.png */,
+				AA09E11C21B64DC500611CD9 /* 手机注册.png */,
+				AA09E11D21B64DC500611CD9 /* 实名认证.png */,
+				AA09E11E21B64DC500611CD9 /* 我要申诉.png */,
+				AA09E11F21B64DC500611CD9 /* 登录.png */,
+				AA09E12021B64DC500611CD9 /* 交易记录_未完成.png */,
+				AA09E12121B64DC500611CD9 /* 公告.png */,
+				AA09E12221B64DC500611CD9 /* 修改绑定邮箱-2.png */,
+				AA09E12321B64DC500611CD9 /* 资讯内容.png */,
+				AA09E12421B64DC500611CD9 /* 资产.png */,
+				AA09E12521B64DC500611CD9 /* 推荐返佣.png */,
+				AA09E12621B64DC500611CD9 /* 成交明细.png */,
+				AA09E12721B64DC500611CD9 /* 买出.png */,
+				AA09E12821B64DC500611CD9 /* 指纹验证.png */,
+				AA09E12921B64DC500611CD9 /* 历史委托.png */,
+				AA09E12A21B64DC500611CD9 /* 法币_交易单.png */,
+				AA09E12B21B64DC500611CD9 /* 安全验证.png */,
+				AA09E12C21B64DC500611CD9 /* 搜索.png */,
+				AA09E12D21B64DC500611CD9 /* 法币_选择币种.png */,
+				AA09E12E21B64DC500611CD9 /* 当前委托.png */,
+				AA09E12F21B64DC500611CD9 /* 行情交易.png */,
+				AA09E13021B64DC500611CD9 /* 安全中心.png */,
+				AA09E13121B64DC500611CD9 /* 修改绑定邮箱.png */,
+				AA09E13221B64DC500611CD9 /* 发布交易-我要出售.png */,
+				AA09E13321B64DC500611CD9 /* 账单.png */,
+				AA09E13421B64DC500611CD9 /* 卖家订单详情-对方已支付.png */,
+				AA09E13521B64DC500611CD9 /* K线图.png */,
+				AA09E13621B64DC500611CD9 /* 返佣记录.png */,
+				AA09E13721B64DC500611CD9 /* 首页.png */,
+				AA09E13821B64DC500611CD9 /* 我的.png */,
+				AA09E13921B64DC500611CD9 /* 法币_购买.png */,
+				AA09E13A21B64DC500611CD9 /* 法币_确认购买.png */,
+				AA09E13B21B64DC500611CD9 /* 邮箱注册_拼图验证.png */,
+				AA09E13C21B64DC500611CD9 /* 资讯.png */,
+				AA09E13D21B64DC500611CD9 /* 公告内容.png */,
+			);
+			path = "标注";
+			sourceTree = "<group>";
+		};
+		AA09E13E21B64DC500611CD9 /* 切图 */ = {
+			isa = PBXGroup;
+			children = (
+				AA09E13F21B64DC500611CD9 /* drawable-xhdpi */,
+				AA09E17E21B64DC500611CD9 /* drawable-xxhdpi */,
+				AA09E1BD21B64DC500611CD9 /* login_pic_01.jpg */,
+				AA09E1BE21B64DC500611CD9 /* login_pic_03.jpg */,
+				AA09E1BF21B64DC500611CD9 /* login_pic_02.jpg */,
+				AA09E1C021B64DC500611CD9 /* login_pic_05.jpg */,
+				AA09E1C121B64DC500611CD9 /* login_pic_04.jpg */,
+			);
+			path = "切图";
+			sourceTree = "<group>";
+		};
+		AA09E13F21B64DC500611CD9 /* drawable-xhdpi */ = {
+			isa = PBXGroup;
+			children = (
+				AA09E14021B64DC500611CD9 /* ic_login_close_eye.png */,
+				AA09E14121B64DC500611CD9 /* ic_tab_mine_default.png */,
+				AA09E14221B64DC500611CD9 /* ic_nav_back_black.png */,
+				AA09E14321B64DC500611CD9 /* tag_vip.png */,
+				AA09E14421B64DC500611CD9 /* ic_tab_deal_default.png */,
+				AA09E14521B64DC500611CD9 /* tag_corner_mark_default.png */,
+				AA09E14621B64DC500611CD9 /* nav_tag_corner_mark.png */,
+				AA09E14721B64DC500611CD9 /* ic_tab_home_pressed.png */,
+				AA09E14821B64DC500611CD9 /* ic_login_area_next.png */,
+				AA09E14921B64DC500611CD9 /* nav_logo.png */,
+				AA09E14A21B64DC500611CD9 /* ic_invisible.png */,
+				AA09E14B21B64DC500611CD9 /* tag_red.png */,
+				AA09E14C21B64DC500611CD9 /* ic_tab_legal_tender_pressed.png */,
+				AA09E14D21B64DC500611CD9 /* btn_id_front.png */,
+				AA09E14E21B64DC500611CD9 /* ic_home_trumpet.png */,
+				AA09E14F21B64DC500611CD9 /* referee_bg.png */,
+				AA09E15021B64DC500611CD9 /* ic_add.png */,
+				AA09E15121B64DC500611CD9 /* btn_id_rear.png */,
+				AA09E15221B64DC500611CD9 /* ic_login_close.png */,
+				AA09E15321B64DC500611CD9 /* ic_center_notice.png */,
+				AA09E15421B64DC500611CD9 /* ic_login_open_eye.png */,
+				AA09E15521B64DC500611CD9 /* ic_tab_legal_tender_default.png */,
+				AA09E15621B64DC500611CD9 /* ic_nav_home.png */,
+				AA09E15721B64DC500611CD9 /* tag_indexes_up.png */,
+				AA09E15821B64DC500611CD9 /* face_id.png */,
+				AA09E15921B64DC500611CD9 /* ic_tab_mine_pressed.png */,
+				AA09E15A21B64DC500611CD9 /* ic_delete.png */,
+				AA09E15B21B64DC500611CD9 /* tag_indexes_down.png */,
+				AA09E15C21B64DC500611CD9 /* tag_wechat_pay.png */,
+				AA09E15D21B64DC500611CD9 /* ic_tab_home_default.png */,
+				AA09E15E21B64DC500611CD9 /* tag_corner_mark_pressed.png */,
+				AA09E15F21B64DC500611CD9 /* ic_tab_deal_pressed.png */,
+				AA09E16021B64DC500611CD9 /* add_pictures.png */,
+				AA09E16121B64DC500611CD9 /* tag_bank_card.png */,
+				AA09E16221B64DC500611CD9 /* ic_refresh_login.png */,
+				AA09E16321B64DC500611CD9 /* ic_login_check_default.png */,
+				AA09E16421B64DC500611CD9 /* ic_nav_search.png */,
+				AA09E16521B64DC500611CD9 /* fingerprint.png */,
+				AA09E16621B64DC500611CD9 /* ic_search_coin.png */,
+				AA09E16721B64DC500611CD9 /* ic_audit_succeed.png */,
+				AA09E16821B64DC500611CD9 /* update_title.png */,
+				AA09E16921B64DC500611CD9 /* ic_nav_back_white.png */,
+				AA09E16A21B64DC500611CD9 /* ic_visible.png */,
+				AA09E16B21B64DC500611CD9 /* ic_tab_wallet_default.png */,
+				AA09E16C21B64DC500611CD9 /* ic_center_payment.png */,
+				AA09E16D21B64DC500611CD9 /* ic_delete_coin.png */,
+				AA09E16E21B64DC500611CD9 /* ic_nav_trading_record.png */,
+				AA09E16F21B64DC500611CD9 /* ic_scan.png */,
+				AA09E17021B64DC500611CD9 /* ic_logo_about.png */,
+				AA09E17121B64DC500611CD9 /* tag_sale.png */,
+				AA09E17221B64DC500611CD9 /* ic_tab_wallet_pressed.png */,
+				AA09E17321B64DC500611CD9 /* tag_alipay.png */,
+				AA09E17421B64DC500611CD9 /* wallet-bg.png */,
+				AA09E17521B64DC500611CD9 /* ic_slide_login.png */,
+				AA09E17621B64DC500611CD9 /* ic_nav_k_line.png */,
+				AA09E17721B64DC500611CD9 /* tag_buy.png */,
+				AA09E17821B64DC500611CD9 /* btn_id_front_sign.png */,
+				AA09E17921B64DC500611CD9 /* ic_login_check_pressed.png */,
+				AA09E17A21B64DC500611CD9 /* ic_center_about.png */,
+				AA09E17B21B64DC500611CD9 /* tag_green.png */,
+				AA09E17C21B64DC500611CD9 /* ic_center_security.png */,
+				AA09E17D21B64DC500611CD9 /* ic_center_rebates.png */,
+			);
+			path = "drawable-xhdpi";
+			sourceTree = "<group>";
+		};
+		AA09E17E21B64DC500611CD9 /* drawable-xxhdpi */ = {
+			isa = PBXGroup;
+			children = (
+				AA09E17F21B64DC500611CD9 /* ic_login_close_eye.png */,
+				AA09E18021B64DC500611CD9 /* ic_tab_mine_default.png */,
+				AA09E18121B64DC500611CD9 /* ic_nav_back_black.png */,
+				AA09E18221B64DC500611CD9 /* tag_vip.png */,
+				AA09E18321B64DC500611CD9 /* ic_tab_deal_default.png */,
+				AA09E18421B64DC500611CD9 /* tag_corner_mark_default.png */,
+				AA09E18521B64DC500611CD9 /* nav_tag_corner_mark.png */,
+				AA09E18621B64DC500611CD9 /* ic_tab_home_pressed.png */,
+				AA09E18721B64DC500611CD9 /* ic_login_area_next.png */,
+				AA09E18821B64DC500611CD9 /* nav_logo.png */,
+				AA09E18921B64DC500611CD9 /* ic_invisible.png */,
+				AA09E18A21B64DC500611CD9 /* tag_red.png */,
+				AA09E18B21B64DC500611CD9 /* ic_tab_legal_tender_pressed.png */,
+				AA09E18C21B64DC500611CD9 /* btn_id_front.png */,
+				AA09E18D21B64DC500611CD9 /* ic_home_trumpet.png */,
+				AA09E18E21B64DC500611CD9 /* referee_bg.png */,
+				AA09E18F21B64DC500611CD9 /* ic_add.png */,
+				AA09E19021B64DC500611CD9 /* btn_id_rear.png */,
+				AA09E19121B64DC500611CD9 /* ic_login_close.png */,
+				AA09E19221B64DC500611CD9 /* ic_center_notice.png */,
+				AA09E19321B64DC500611CD9 /* ic_login_open_eye.png */,
+				AA09E19421B64DC500611CD9 /* ic_tab_legal_tender_default.png */,
+				AA09E19521B64DC500611CD9 /* ic_nav_home.png */,
+				AA09E19621B64DC500611CD9 /* tag_indexes_up.png */,
+				AA09E19721B64DC500611CD9 /* face_id.png */,
+				AA09E19821B64DC500611CD9 /* ic_tab_mine_pressed.png */,
+				AA09E19921B64DC500611CD9 /* ic_delete.png */,
+				AA09E19A21B64DC500611CD9 /* tag_indexes_down.png */,
+				AA09E19B21B64DC500611CD9 /* tag_wechat_pay.png */,
+				AA09E19C21B64DC500611CD9 /* ic_tab_home_default.png */,
+				AA09E19D21B64DC500611CD9 /* tag_corner_mark_pressed.png */,
+				AA09E19E21B64DC500611CD9 /* ic_tab_deal_pressed.png */,
+				AA09E19F21B64DC500611CD9 /* add_pictures.png */,
+				AA09E1A021B64DC500611CD9 /* tag_bank_card.png */,
+				AA09E1A121B64DC500611CD9 /* ic_refresh_login.png */,
+				AA09E1A221B64DC500611CD9 /* ic_login_check_default.png */,
+				AA09E1A321B64DC500611CD9 /* ic_nav_search.png */,
+				AA09E1A421B64DC500611CD9 /* fingerprint.png */,
+				AA09E1A521B64DC500611CD9 /* ic_search_coin.png */,
+				AA09E1A621B64DC500611CD9 /* ic_audit_succeed.png */,
+				AA09E1A721B64DC500611CD9 /* update_title.png */,
+				AA09E1A821B64DC500611CD9 /* ic_nav_back_white.png */,
+				AA09E1A921B64DC500611CD9 /* ic_visible.png */,
+				AA09E1AA21B64DC500611CD9 /* ic_tab_wallet_default.png */,
+				AA09E1AB21B64DC500611CD9 /* ic_center_payment.png */,
+				AA09E1AC21B64DC500611CD9 /* ic_delete_coin.png */,
+				AA09E1AD21B64DC500611CD9 /* ic_nav_trading_record.png */,
+				AA09E1AE21B64DC500611CD9 /* ic_scan.png */,
+				AA09E1AF21B64DC500611CD9 /* ic_logo_about.png */,
+				AA09E1B021B64DC500611CD9 /* tag_sale.png */,
+				AA09E1B121B64DC500611CD9 /* ic_tab_wallet_pressed.png */,
+				AA09E1B221B64DC500611CD9 /* tag_alipay.png */,
+				AA09E1B321B64DC500611CD9 /* wallet-bg.png */,
+				AA09E1B421B64DC500611CD9 /* ic_slide_login.png */,
+				AA09E1B521B64DC500611CD9 /* ic_nav_k_line.png */,
+				AA09E1B621B64DC500611CD9 /* tag_buy.png */,
+				AA09E1B721B64DC500611CD9 /* btn_id_front_sign.png */,
+				AA09E1B821B64DC500611CD9 /* ic_login_check_pressed.png */,
+				AA09E1B921B64DC500611CD9 /* ic_center_about.png */,
+				AA09E1BA21B64DC500611CD9 /* tag_green.png */,
+				AA09E1BB21B64DC500611CD9 /* ic_center_security.png */,
+				AA09E1BC21B64DC500611CD9 /* ic_center_rebates.png */,
+			);
+			path = "drawable-xxhdpi";
+			sourceTree = "<group>";
+		};
+		AA09E1C221B64DC500611CD9 /* 启动页 */ = {
+			isa = PBXGroup;
+			children = (
+				AA09E1C321B64DC500611CD9 /* 720x1280.png */,
+				AA09E1C421B64DC500611CD9 /* 1080x1920.png */,
+			);
+			path = "启动页";
+			sourceTree = "<group>";
+		};
+		AA09E1C521B64DC500611CD9 /* 启动图标 */ = {
+			isa = PBXGroup;
+			children = (
+				AA09E1C621B64DC500611CD9 /* 144x144.png */,
+				AA09E1C721B64DC500611CD9 /* 72x72.png */,
+				AA09E1C821B64DC500611CD9 /* 96x96.png */,
+				AA09E1C921B64DC500611CD9 /* 512x512.png */,
+			);
+			path = "启动图标";
+			sourceTree = "<group>";
+		};
+		AA09E1CA21B64DC500611CD9 /* IOS */ = {
+			isa = PBXGroup;
+			children = (
+				AA09E1CB21B64DC500611CD9 /* 标注 */,
+				AA09E1EF21B64DC500611CD9 /* 切图 */,
+				AA09E27721B64DC600611CD9 /* 启动页 */,
+				AA09E27E21B64DC600611CD9 /* 启动图标 */,
+			);
+			path = IOS;
+			sourceTree = "<group>";
+		};
+		AA09E1CB21B64DC500611CD9 /* 标注 */ = {
+			isa = PBXGroup;
+			children = (
+				AA09E1CC21B64DC500611CD9 /* 关于我们.png */,
+				AA09E1CD21B64DC500611CD9 /* 手机注册.png */,
+				AA09E1CE21B64DC500611CD9 /* 实名认证.png */,
+				AA09E1CF21B64DC500611CD9 /* 我要申诉.png */,
+				AA09E1D021B64DC500611CD9 /* 登录.png */,
+				AA09E1D121B64DC500611CD9 /* 交易记录_未完成.png */,
+				AA09E1D221B64DC500611CD9 /* 公告.png */,
+				AA09E1D321B64DC500611CD9 /* 修改绑定邮箱-2.png */,
+				AA09E1D421B64DC500611CD9 /* 资讯内容.png */,
+				AA09E1D521B64DC500611CD9 /* 资产.png */,
+				AA09E1D621B64DC500611CD9 /* 推荐返佣.png */,
+				AA09E1D721B64DC500611CD9 /* 成交明细.png */,
+				AA09E1D821B64DC500611CD9 /* 买出.png */,
+				AA09E1D921B64DC500611CD9 /* 指纹验证.png */,
+				AA09E1DA21B64DC500611CD9 /* 历史委托.png */,
+				AA09E1DB21B64DC500611CD9 /* 法币_交易单.png */,
+				AA09E1DC21B64DC500611CD9 /* 安全验证.png */,
+				AA09E1DD21B64DC500611CD9 /* 搜索.png */,
+				AA09E1DE21B64DC500611CD9 /* 法币_选择币种.png */,
+				AA09E1DF21B64DC500611CD9 /* 当前委托.png */,
+				AA09E1E021B64DC500611CD9 /* 行情交易.png */,
+				AA09E1E121B64DC500611CD9 /* 安全中心.png */,
+				AA09E1E221B64DC500611CD9 /* 修改绑定邮箱.png */,
+				AA09E1E321B64DC500611CD9 /* 发布交易-我要出售.png */,
+				AA09E1E421B64DC500611CD9 /* 账单.png */,
+				AA09E1E521B64DC500611CD9 /* 卖家订单详情-对方已支付.png */,
+				AA09E1E621B64DC500611CD9 /* K线图.png */,
+				AA09E1E721B64DC500611CD9 /* 返佣记录.png */,
+				AA09E1E821B64DC500611CD9 /* 首页.png */,
+				AA09E1E921B64DC500611CD9 /* 我的.png */,
+				AA09E1EA21B64DC500611CD9 /* 法币_购买.png */,
+				AA09E1EB21B64DC500611CD9 /* 法币_确认购买.png */,
+				AA09E1EC21B64DC500611CD9 /* 邮箱注册_拼图验证.png */,
+				AA09E1ED21B64DC500611CD9 /* 资讯.png */,
+				AA09E1EE21B64DC500611CD9 /* 公告内容.png */,
+			);
+			path = "标注";
+			sourceTree = "<group>";
+		};
+		AA09E1EF21B64DC500611CD9 /* 切图 */ = {
+			isa = PBXGroup;
+			children = (
+				AA09E1F021B64DC500611CD9 /* add_pictures@3x.png */,
+				AA09E1F121B64DC500611CD9 /* ic_center_about@2x.png */,
+				AA09E1F221B64DC500611CD9 /* slide_bar@2x.png */,
+				AA09E1F321B64DC500611CD9 /* tag_indexes_up@3x.png */,
+				AA09E1F421B64DC500611CD9 /* ic_nav_back_white@2x.png */,
+				AA09E1F521B64DC500611CD9 /* ic_tab_deal_pressed@2x.png */,
+				AA09E1F621B64DC500611CD9 /* ic_tab_home_pressed@3x.png */,
+				AA09E1F721B64DC500611CD9 /* ic_invisible@2x.png */,
+				AA09E1F821B64DC500611CD9 /* tag_corner_mark_default@2x.png */,
+				AA09E1F921B64DC500611CD9 /* tag_vip@3x.png */,
+				AA09E1FA21B64DC500611CD9 /* ic_tab_mine_pressed@3x.png */,
+				AA09E1FB21B64DC500611CD9 /* ic_nav_search@2x.png */,
+				AA09E1FC21B64DC500611CD9 /* ic_tab_legal_tender_default@2x.png */,
+				AA09E1FD21B64DC500611CD9 /* ic_search_coin@2x.png */,
+				AA09E1FE21B64DC500611CD9 /* ic_login_close@3x.png */,
+				AA09E1FF21B64DC500611CD9 /* tag_red@2x.png */,
+				AA09E20021B64DC500611CD9 /* ic_login_close@2x.png */,
+				AA09E20121B64DC500611CD9 /* tag_red@3x.png */,
+				AA09E20221B64DC500611CD9 /* ic_search_coin@3x.png */,
+				AA09E20321B64DC500611CD9 /* ic_tab_legal_tender_default@3x.png */,
+				AA09E20421B64DC500611CD9 /* ic_tab_mine_pressed@2x.png */,
+				AA09E20521B64DC500611CD9 /* ic_nav_search@3x.png */,
+				AA09E20621B64DC500611CD9 /* tag_vip@2x.png */,
+				AA09E20721B64DC500611CD9 /* tag_corner_mark_default@3x.png */,
+				AA09E20821B64DC500611CD9 /* ic_invisible@3x.png */,
+				AA09E20921B64DC500611CD9 /* ic_tab_deal_pressed@3x.png */,
+				AA09E20A21B64DC500611CD9 /* ic_tab_home_pressed@2x.png */,
+				AA09E20B21B64DC500611CD9 /* ic_nav_back_white@3x.png */,
+				AA09E20C21B64DC500611CD9 /* slide_bar@3x.png */,
+				AA09E20D21B64DC500611CD9 /* tag_indexes_up@2x.png */,
+				AA09E20E21B64DC500611CD9 /* add_pictures@2x.png */,
+				AA09E20F21B64DC500611CD9 /* ic_center_about@3x.png */,
+				AA09E21021B64DC500611CD9 /* btn_id_front@3x.png */,
+				AA09E21121B64DC500611CD9 /* ic_visible@3x.png */,
+				AA09E21221B64DC500611CD9 /* face_id@3x.png */,
+				AA09E21321B64DC500611CD9 /* ic_scan@2x.png */,
+				AA09E21421B64DC500611CD9 /* ic_slide_login_pressed@2x.png */,
+				AA09E21521B64DC500611CD9 /* ic_delete@3x.png */,
+				AA09E21621B64DC500611CD9 /* ic_tab_deal_default@3x.png */,
+				AA09E21721B64DC500611CD9 /* ic_tab_home_default@2x.png */,
+				AA09E21821B64DC500611CD9 /* ic_delete_coin@3x.png */,
+				AA09E21921B64DC500611CD9 /* nav_logo@3x.png */,
+				AA09E21A21B64DC500611CD9 /* tag_indexes_down@3x.png */,
+				AA09E21B21B64DC500611CD9 /* tag_corner_mark_pressed@3x.png */,
+				AA09E21C21B64DC500611CD9 /* tag_wechat_pay@3x.png */,
+				AA09E21D21B64DC500611CD9 /* ic_tab_mine_default@2x.png */,
+				AA09E21E21B64DC500611CD9 /* ic_tab_legal_tender_pressed@3x.png */,
+				AA09E21F21B64DC500611CD9 /* ic_nav_trading_record@2x.png */,
+				AA09E22021B64DC500611CD9 /* slide_bar_pressed@3x.png */,
+				AA09E22121B64DC500611CD9 /* tag_alipay@3x.png */,
+				AA09E22221B64DC500611CD9 /* btn_id_front_sign@2x.png */,
+				AA09E22321B64DC500611CD9 /* btn_id_front_sign@3x.png */,
+				AA09E22421B64DC500611CD9 /* tag_alipay@2x.png */,
+				AA09E22521B64DC500611CD9 /* slide_bar_pressed@2x.png */,
+				AA09E22621B64DC500611CD9 /* ic_tab_legal_tender_pressed@2x.png */,
+				AA09E22721B64DC500611CD9 /* ic_nav_trading_record@3x.png */,
+				AA09E22821B64DC500611CD9 /* ic_tab_mine_default@3x.png */,
+				AA09E22921B64DC500611CD9 /* tag_wechat_pay@2x.png */,
+				AA09E22A21B64DC500611CD9 /* tag_corner_mark_pressed@2x.png */,
+				AA09E22B21B64DC500611CD9 /* tag_indexes_down@2x.png */,
+				AA09E22C21B64DC600611CD9 /* ic_delete_coin@2x.png */,
+				AA09E22D21B64DC600611CD9 /* nav_logo@2x.png */,
+				AA09E22E21B64DC600611CD9 /* ic_tab_deal_default@2x.png */,
+				AA09E22F21B64DC600611CD9 /* ic_tab_home_default@3x.png */,
+				AA09E23021B64DC600611CD9 /* ic_delete@2x.png */,
+				AA09E23121B64DC600611CD9 /* ic_slide_login_pressed@3x.png */,
+				AA09E23221B64DC600611CD9 /* face_id@2x.png */,
+				AA09E23321B64DC600611CD9 /* ic_scan@3x.png */,
+				AA09E23421B64DC600611CD9 /* ic_visible@2x.png */,
+				AA09E23521B64DC600611CD9 /* btn_id_front@2x.png */,
+				AA09E23621B64DC600611CD9 /* tag_sale@2x.png */,
+				AA09E23721B64DC600611CD9 /* ic_login_area_next@3x.png */,
+				AA09E23821B64DC600611CD9 /* nav_tag_corner_mark@2x.png */,
+				AA09E23921B64DC600611CD9 /* ic_home_trumpet@2x.png */,
+				AA09E23A21B64DC600611CD9 /* ic_center_notice@3x.png */,
+				AA09E23B21B64DC600611CD9 /* fingerprint@2x.png */,
+				AA09E23C21B64DC600611CD9 /* tag_green@2x.png */,
+				AA09E23D21B64DC600611CD9 /* ic_login_check_pressed@2x.png */,
+				AA09E23E21B64DC600611CD9 /* wallet-bg@2x.png */,
+				AA09E23F21B64DC600611CD9 /* ic_refresh_login@3x.png */,
+				AA09E24021B64DC600611CD9 /* ic_tab_wallet_default@2x.png */,
+				AA09E24121B64DC600611CD9 /* ic_nav_k_line@2x.png */,
+				AA09E24221B64DC600611CD9 /* ic_audit_succeed@2x.png */,
+				AA09E24321B64DC600611CD9 /* ic_center_rebates@3x.png */,
+				AA09E24421B64DC600611CD9 /* referee_bg@3x.png */,
+				AA09E24521B64DC600611CD9 /* tag_bank_card@2x.png */,
+				AA09E24621B64DC600611CD9 /* ic_nav_back_black@2x.png */,
+				AA09E24721B64DC600611CD9 /* ic_logo_about@3x.png */,
+				AA09E24821B64DC600611CD9 /* ic_nav_back_black@3x.png */,
+				AA09E24921B64DC600611CD9 /* ic_logo_about@2x.png */,
+				AA09E24A21B64DC600611CD9 /* tag_bank_card@3x.png */,
+				AA09E24B21B64DC600611CD9 /* referee_bg@2x.png */,
+				AA09E24C21B64DC600611CD9 /* ic_audit_succeed@3x.png */,
+				AA09E24D21B64DC600611CD9 /* ic_center_rebates@2x.png */,
+				AA09E24E21B64DC600611CD9 /* ic_nav_k_line@3x.png */,
+				AA09E24F21B64DC600611CD9 /* ic_tab_wallet_default@3x.png */,
+				AA09E25021B64DC600611CD9 /* ic_refresh_login@2x.png */,
+				AA09E25121B64DC600611CD9 /* wallet-bg@3x.png */,
+				AA09E25221B64DC600611CD9 /* ic_login_check_pressed@3x.png */,
+				AA09E25321B64DC600611CD9 /* tag_green@3x.png */,
+				AA09E25421B64DC600611CD9 /* ic_center_notice@2x.png */,
+				AA09E25521B64DC600611CD9 /* fingerprint@3x.png */,
+				AA09E25621B64DC600611CD9 /* ic_login_area_next@2x.png */,
+				AA09E25721B64DC600611CD9 /* nav_tag_corner_mark@3x.png */,
+				AA09E25821B64DC600611CD9 /* ic_home_trumpet@3x.png */,
+				AA09E25921B64DC600611CD9 /* tag_sale@3x.png */,
+				AA09E25A21B64DC600611CD9 /* ic_add@2x.png */,
+				AA09E25B21B64DC600611CD9 /* login_pic_01.png */,
+				AA09E25C21B64DC600611CD9 /* ic_login_open_eye@3x.png */,
+				AA09E25D21B64DC600611CD9 /* ic_nav_home@2x.png */,
+				AA09E25E21B64DC600611CD9 /* ic_login_check_default@3x.png */,
+				AA09E25F21B64DC600611CD9 /* ic_center_security@2x.png */,
+				AA09E26021B64DC600611CD9 /* login_pic_03.png */,
+				AA09E26121B64DC600611CD9 /* ic_login_close_eye@2x.png */,
+				AA09E26221B64DC600611CD9 /* ic_tab_wallet_pressed@3x.png */,
+				AA09E26321B64DC600611CD9 /* ic_slide_login@3x.png */,
+				AA09E26421B64DC600611CD9 /* btn_id_rear@3x.png */,
+				AA09E26521B64DC600611CD9 /* tag_buy@3x.png */,
+				AA09E26621B64DC600611CD9 /* login_pic_02.png */,
+				AA09E26721B64DC600611CD9 /* ic_center_payment@3x.png */,
+				AA09E26821B64DC600611CD9 /* ic_home_nav_logo@3x.png */,
+				AA09E26921B64DC600611CD9 /* ic_home_nav_logo@2x.png */,
+				AA09E26A21B64DC600611CD9 /* ic_center_payment@2x.png */,
+				AA09E26B21B64DC600611CD9 /* tag_buy@2x.png */,
+				AA09E26C21B64DC600611CD9 /* ic_slide_login@2x.png */,
+				AA09E26D21B64DC600611CD9 /* btn_id_rear@2x.png */,
+				AA09E26E21B64DC600611CD9 /* ic_tab_wallet_pressed@2x.png */,
+				AA09E26F21B64DC600611CD9 /* ic_login_close_eye@3x.png */,
+				AA09E27021B64DC600611CD9 /* ic_center_security@3x.png */,
+				AA09E27121B64DC600611CD9 /* ic_nav_home@3x.png */,
+				AA09E27221B64DC600611CD9 /* ic_login_check_default@2x.png */,
+				AA09E27321B64DC600611CD9 /* ic_login_open_eye@2x.png */,
+				AA09E27421B64DC600611CD9 /* login_pic_05.png */,
+				AA09E27521B64DC600611CD9 /* ic_add@3x.png */,
+				AA09E27621B64DC600611CD9 /* login_pic_04.png */,
+			);
+			path = "切图";
+			sourceTree = "<group>";
+		};
+		AA09E27721B64DC600611CD9 /* 启动页 */ = {
+			isa = PBXGroup;
+			children = (
+				AA09E27821B64DC600611CD9 /* 640x960.png */,
+				AA09E27921B64DC600611CD9 /* 1125x2436.png */,
+				AA09E27A21B64DC600611CD9 /* 750x1624.png */,
+				AA09E27B21B64DC600611CD9 /* 750x1334.png */,
+				AA09E27C21B64DC600611CD9 /* 640x1136.png */,
+				AA09E27D21B64DC600611CD9 /* 1242x2208.png */,
+			);
+			path = "启动页";
+			sourceTree = "<group>";
+		};
+		AA09E27E21B64DC600611CD9 /* 启动图标 */ = {
+			isa = PBXGroup;
+			children = (
+				AA09E27F21B64DC600611CD9 /* 1024@1x.png */,
+				AA09E28021B64DC600611CD9 /* 20@3x.png */,
+				AA09E28121B64DC600611CD9 /* 20@2x.png */,
+				AA09E28221B64DC600611CD9 /* 60@3x.png */,
+				AA09E28321B64DC600611CD9 /* 29@2x.png */,
+				AA09E28421B64DC600611CD9 /* 29@3x.png */,
+				AA09E28521B64DC600611CD9 /* 60@2x.png */,
+				AA09E28621B64DC600611CD9 /* 40@2x.png */,
+				AA09E28721B64DC600611CD9 /* 40@3x.png */,
+			);
+			path = "启动图标";
+			sourceTree = "<group>";
+		};
+		AA09E28821B64DC600611CD9 /* 设计稿 */ = {
+			isa = PBXGroup;
+			children = (
+				AA09E28921B64DC600611CD9 /* 关于我们.png */,
+				AA09E28A21B64DC600611CD9 /* 买家订单详情-交易完成.png */,
+				AA09E28B21B64DC600611CD9 /* 申诉提交成功.png */,
+				AA09E28C21B64DC600611CD9 /* 卖家订单详情-交易完成.png */,
+				AA09E28D21B64DC600611CD9 /* 手机注册.png */,
+				AA09E28E21B64DC600611CD9 /* 卖家订单详情-待对方支付.png */,
+				AA09E28F21B64DC600611CD9 /* 买入.png */,
+				AA09E29021B64DC600611CD9 /* 实名认证.png */,
+				AA09E29121B64DC600611CD9 /* 发布交易-我要购买.png */,
+				AA09E29221B64DC600611CD9 /* 交易记录_已取消.png */,
+				AA09E29321B64DC600611CD9 /* 我要申诉.png */,
+				AA09E29421B64DC600611CD9 /* 登录.png */,
+				AA09E29521B64DC600611CD9 /* 交易记录_未完成.png */,
+				AA09E29621B64DC600611CD9 /* 买家订单详情-待支付.png */,
+				AA09E29721B64DC600611CD9 /* 公告.png */,
+				AA09E29821B64DC600611CD9 /* 修改绑定邮箱-2.png */,
+				AA09E29921B64DC600611CD9 /* 资讯内容.png */,
+				AA09E29A21B64DC600611CD9 /* 卖出.png */,
+				AA09E29B21B64DC600611CD9 /* 个人资料.png */,
+				AA09E29C21B64DC600611CD9 /* 资产.png */,
+				AA09E29D21B64DC600611CD9 /* 法币_确认出售.png */,
+				AA09E29E21B64DC600611CD9 /* 法币_出售.png */,
+				AA09E29F21B64DC600611CD9 /* 推荐返佣.png */,
+				AA09E2A021B64DC600611CD9 /* 我的-未认证.png */,
+				AA09E2A121B64DC600611CD9 /* 成交明细.png */,
+				AA09E2A221B64DC600611CD9 /* 买家订单详情-违规.png */,
+				AA09E2A321B64DC600611CD9 /* 指纹验证.png */,
+				AA09E2A421B64DC600611CD9 /* 历史委托.png */,
+				AA09E2A521B64DC600611CD9 /* 法币_交易单.png */,
+				AA09E2A621B64DC600611CD9 /* 我的-未登录.png */,
+				AA09E2A721B64DC600611CD9 /* 转出EOS.png */,
+				AA09E2A821B64DC600611CD9 /* 忘记邮箱密码.png */,
+				AA09E2A921B64DC600611CD9 /* 买家订单详情-待对方放币.png */,
+				AA09E2AA21B64DC600611CD9 /* 安全验证.png */,
+				AA09E2AB21B64DC600611CD9 /* 搜索.png */,
+				AA09E2AC21B64DC600611CD9 /* 法币_选择币种.png */,
+				AA09E2AD21B64DC600611CD9 /* 买家订单详情-交易取消.png */,
+				AA09E2AE21B64DC600611CD9 /* 当前委托.png */,
+				AA09E2AF21B64DC600611CD9 /* 行情交易.png */,
+				AA09E2B021B64DC600611CD9 /* 邮箱注册.png */,
+				AA09E2B121B64DC600611CD9 /* 安全中心.png */,
+				AA09E2B221B64DC600611CD9 /* 发布结果.png */,
+				AA09E2B321B64DC600611CD9 /* 修改绑定邮箱.png */,
+				AA09E2B421B64DC600611CD9 /* 交易记录_已完成.png */,
+				AA09E2B521B64DC600611CD9 /* 我的-实名认证.png */,
+				AA09E2B621B64DC600611CD9 /* 发布交易-我要出售.png */,
+				AA09E2B721B64DC600611CD9 /* 提币.png */,
+				AA09E2B821B64DC600611CD9 /* 买家订单详情-待支付2.png */,
+				AA09E2B921B64DC600611CD9 /* 账单.png */,
+				AA09E2BA21B64DC600611CD9 /* 转入EOS.png */,
+				AA09E2BB21B64DC600611CD9 /* 卖家订单详情-对方已支付.png */,
+				AA09E2BC21B64DC600611CD9 /* K线图.png */,
+				AA09E2BD21B64DC600611CD9 /* 返佣记录.png */,
+				AA09E2BE21B64DC600611CD9 /* 卖家订单详情-违规.png */,
+				AA09E2BF21B64DC600611CD9 /* 首页.png */,
+				AA09E2C021B64DC600611CD9 /* 法币_购买.png */,
+				AA09E2C121B64DC600611CD9 /* 法币_确认购买.png */,
+				AA09E2C221B64DC600611CD9 /* 邮箱注册_拼图验证.png */,
+				AA09E2C321B64DC600611CD9 /* 资讯.png */,
+				AA09E2C421B64DC600611CD9 /* 公告内容.png */,
+			);
+			path = "设计稿";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +1592,424 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA09E39C21B64DC600611CD9 /* ic_tab_mine_pressed@3x.png in Resources */,
+				AA09E3D421B64DC600611CD9 /* face_id@2x.png in Resources */,
+				AA09E37021B64DC600611CD9 /* 手机注册.png in Resources */,
+				AA09E3DD21B64DC600611CD9 /* fingerprint@2x.png in Resources */,
+				AA09E34421B64DC600611CD9 /* tag_corner_mark_pressed.png in Resources */,
+				AA09E3A521B64DC600611CD9 /* ic_tab_legal_tender_default@3x.png in Resources */,
+				AA09E2E921B64DC600611CD9 /* ic_tab_mine_default.png in Resources */,
+				AA09E34521B64DC600611CD9 /* ic_tab_deal_pressed.png in Resources */,
+				AA09E2CE21B64DC600611CD9 /* 资产.png in Resources */,
+				AA09E2C621B64DC600611CD9 /* 手机注册.png in Resources */,
+				AA09E32121B64DC600611CD9 /* ic_login_check_pressed.png in Resources */,
+				AA09E37C21B64DC600611CD9 /* 指纹验证.png in Resources */,
+				AA09E45B21B64DC600611CD9 /* K线图.png in Resources */,
+				AA09E33121B64DC600611CD9 /* tag_red.png in Resources */,
+				AA09E2F521B64DC600611CD9 /* btn_id_front.png in Resources */,
+				AA09E38D21B64DC600611CD9 /* 法币_购买.png in Resources */,
+				AA09E32421B64DC600611CD9 /* ic_center_security.png in Resources */,
+				AA09E3A921B64DC600611CD9 /* tag_corner_mark_default@3x.png in Resources */,
+				AA09E3C121B64DC600611CD9 /* ic_nav_trading_record@2x.png in Resources */,
+				AA09E38321B64DC600611CD9 /* 行情交易.png in Resources */,
+				AA09E35D21B64DC600611CD9 /* tag_buy.png in Resources */,
+				AA09E3F721B64DC600611CD9 /* fingerprint@3x.png in Resources */,
+				AA09E44821B64DC600611CD9 /* 买家订单详情-待对方放币.png in Resources */,
+				AA09E30921B64DC600611CD9 /* tag_bank_card.png in Resources */,
+				AA09E44121B64DC600611CD9 /* 买家订单详情-违规.png in Resources */,
+				AA09E2EF21B64DC600611CD9 /* ic_tab_home_pressed.png in Resources */,
+				AA09E41621B64DC600611CD9 /* login_pic_05.png in Resources */,
+				AA09E44A21B64DC600611CD9 /* 搜索.png in Resources */,
+				AA09E36121B64DC600611CD9 /* tag_green.png in Resources */,
+				AA09E39421B64DC600611CD9 /* slide_bar@2x.png in Resources */,
+				AA09E2FD21B64DC600611CD9 /* ic_tab_legal_tender_default.png in Resources */,
+				AA09E3CC21B64DC600611CD9 /* tag_corner_mark_pressed@2x.png in Resources */,
+				AA09E32321B64DC600611CD9 /* tag_green.png in Resources */,
+				AA09E44E21B64DC600611CD9 /* 行情交易.png in Resources */,
+				AA09E42721B64DC600611CD9 /* 40@3x.png in Resources */,
+				AA09E3B621B64DC600611CD9 /* ic_slide_login_pressed@2x.png in Resources */,
+				AA09E31921B64DC600611CD9 /* tag_sale.png in Resources */,
+				AA09E3EB21B64DC600611CD9 /* ic_logo_about@2x.png in Resources */,
+				AA09E33921B64DC600611CD9 /* ic_center_notice.png in Resources */,
+				AA09E2F321B64DC600611CD9 /* tag_red.png in Resources */,
+				AA09E31121B64DC600611CD9 /* ic_nav_back_white.png in Resources */,
+				AA09E2CC21B64DC600611CD9 /* 修改绑定邮箱-2.png in Resources */,
+				AA09E30521B64DC600611CD9 /* ic_tab_home_default.png in Resources */,
+				AA09E2EA21B64DC600611CD9 /* ic_nav_back_black.png in Resources */,
+				AA09E35E21B64DC600611CD9 /* btn_id_front_sign.png in Resources */,
+				AA09E45421B64DC600611CD9 /* 我的-实名认证.png in Resources */,
+				AA09E3BB21B64DC600611CD9 /* nav_logo@3x.png in Resources */,
+				AA09E30121B64DC600611CD9 /* ic_tab_mine_pressed.png in Resources */,
+				AA09E33F21B64DC600611CD9 /* ic_tab_mine_pressed.png in Resources */,
+				AA09E2D121B64DC600611CD9 /* 买出.png in Resources */,
+				AA09E2EE21B64DC600611CD9 /* nav_tag_corner_mark.png in Resources */,
+				AA09E36921B64DC600611CD9 /* 720x1280.png in Resources */,
+				AA09E3AE21B64DC600611CD9 /* slide_bar@3x.png in Resources */,
+				AA09E32C21B64DC600611CD9 /* nav_tag_corner_mark.png in Resources */,
+				AA09E2E121B64DC600611CD9 /* 首页.png in Resources */,
+				AA09E38621B64DC600611CD9 /* 发布交易-我要出售.png in Resources */,
+				AA09E44421B64DC600611CD9 /* 法币_交易单.png in Resources */,
+				AA09E46121B64DC600611CD9 /* 邮箱注册_拼图验证.png in Resources */,
+				AA09E2F921B64DC600611CD9 /* btn_id_rear.png in Resources */,
+				AA09E3D021B64DC600611CD9 /* ic_tab_deal_default@2x.png in Resources */,
+				AA09E43821B64DC600611CD9 /* 资讯内容.png in Resources */,
+				AA09E31C21B64DC600611CD9 /* wallet-bg.png in Resources */,
+				AA09E3B121B64DC600611CD9 /* ic_center_about@3x.png in Resources */,
+				AA09E2F621B64DC600611CD9 /* ic_home_trumpet.png in Resources */,
+				AA09E42A21B64DC600611CD9 /* 申诉提交成功.png in Resources */,
+				AA09E43D21B64DC600611CD9 /* 法币_出售.png in Resources */,
+				AA09E42D21B64DC600611CD9 /* 卖家订单详情-待对方支付.png in Resources */,
+				AA09E3F021B64DC600611CD9 /* ic_nav_k_line@3x.png in Resources */,
+				AA09E3BE21B64DC600611CD9 /* tag_wechat_pay@3x.png in Resources */,
+				AA09E37221B64DC600611CD9 /* 我要申诉.png in Resources */,
+				AA09E43F21B64DC600611CD9 /* 我的-未认证.png in Resources */,
+				AA09E37B21B64DC600611CD9 /* 买出.png in Resources */,
+				AA09E42021B64DC600611CD9 /* 20@3x.png in Resources */,
+				AA09E3EE21B64DC600611CD9 /* ic_audit_succeed@3x.png in Resources */,
+				AA09E3A721B64DC600611CD9 /* ic_nav_search@3x.png in Resources */,
+				AA09E3A421B64DC600611CD9 /* ic_search_coin@3x.png in Resources */,
+				AA09E35721B64DC600611CD9 /* tag_sale.png in Resources */,
+				AA09E2C921B64DC600611CD9 /* 登录.png in Resources */,
+				AA09E41921B64DC600611CD9 /* 640x960.png in Resources */,
+				AA09E32921B64DC600611CD9 /* tag_vip.png in Resources */,
+				AA09E40521B64DC600611CD9 /* ic_slide_login@3x.png in Resources */,
+				AA09E3CE21B64DC600611CD9 /* ic_delete_coin@2x.png in Resources */,
+				AA09E30A21B64DC600611CD9 /* ic_refresh_login.png in Resources */,
+				AA09E3CB21B64DC600611CD9 /* tag_wechat_pay@2x.png in Resources */,
+				AA09E41E21B64DC600611CD9 /* 1242x2208.png in Resources */,
+				AA09E3D621B64DC600611CD9 /* ic_visible@2x.png in Resources */,
+				AA09E3F621B64DC600611CD9 /* ic_center_notice@2x.png in Resources */,
+				AA09E34D21B64DC600611CD9 /* ic_audit_succeed.png in Resources */,
+				AA09E2D821B64DC600611CD9 /* 当前委托.png in Resources */,
+				AA09E41A21B64DC600611CD9 /* 1125x2436.png in Resources */,
+				AA09E32821B64DC600611CD9 /* ic_nav_back_black.png in Resources */,
+				AA09E3B221B64DC600611CD9 /* btn_id_front@3x.png in Resources */,
+				AA09E42221B64DC600611CD9 /* 60@3x.png in Resources */,
+				AA09E34B21B64DC600611CD9 /* fingerprint.png in Resources */,
+				AA09E3A321B64DC600611CD9 /* tag_red@3x.png in Resources */,
+				AA09E31021B64DC600611CD9 /* update_title.png in Resources */,
+				AA09E40C21B64DC600611CD9 /* ic_center_payment@2x.png in Resources */,
+				AA09E3B721B64DC600611CD9 /* ic_delete@3x.png in Resources */,
+				AA09E36721B64DC600611CD9 /* login_pic_05.jpg in Resources */,
+				AA09E2E621B64DC600611CD9 /* 资讯.png in Resources */,
+				AA09E3C521B64DC600611CD9 /* btn_id_front_sign@3x.png in Resources */,
+				AA09E39B21B64DC600611CD9 /* tag_vip@3x.png in Resources */,
+				AA09E44221B64DC600611CD9 /* 指纹验证.png in Resources */,
+				AA09E36621B64DC600611CD9 /* login_pic_02.jpg in Resources */,
+				AA09E38521B64DC600611CD9 /* 修改绑定邮箱.png in Resources */,
+				AA09E3AA21B64DC600611CD9 /* ic_invisible@3x.png in Resources */,
 				AA09E0F321B64DA800611CD9 /* LaunchScreen.storyboard in Resources */,
+				AA09E2CD21B64DC600611CD9 /* 资讯内容.png in Resources */,
+				AA09E43A21B64DC600611CD9 /* 个人资料.png in Resources */,
+				AA09E40621B64DC600611CD9 /* btn_id_rear@3x.png in Resources */,
+				AA09E2ED21B64DC600611CD9 /* tag_corner_mark_default.png in Resources */,
+				AA09E37921B64DC600611CD9 /* 推荐返佣.png in Resources */,
+				AA09E39521B64DC600611CD9 /* tag_indexes_up@3x.png in Resources */,
+				AA09E2DB21B64DC600611CD9 /* 修改绑定邮箱.png in Resources */,
+				AA09E3CA21B64DC600611CD9 /* ic_tab_mine_default@3x.png in Resources */,
+				AA09E3F121B64DC600611CD9 /* ic_tab_wallet_default@3x.png in Resources */,
+				AA09E36F21B64DC600611CD9 /* 关于我们.png in Resources */,
+				AA09E2F421B64DC600611CD9 /* ic_tab_legal_tender_pressed.png in Resources */,
+				AA09E37421B64DC600611CD9 /* 交易记录_未完成.png in Resources */,
+				AA09E42421B64DC600611CD9 /* 29@3x.png in Resources */,
+				AA09E3A121B64DC600611CD9 /* tag_red@2x.png in Resources */,
+				AA09E3C421B64DC600611CD9 /* btn_id_front_sign@2x.png in Resources */,
+				AA09E30D21B64DC600611CD9 /* fingerprint.png in Resources */,
+				AA09E3C821B64DC600611CD9 /* ic_tab_legal_tender_pressed@2x.png in Resources */,
+				AA09E41B21B64DC600611CD9 /* 750x1624.png in Resources */,
+				AA09E34F21B64DC600611CD9 /* ic_nav_back_white.png in Resources */,
+				AA09E39221B64DC600611CD9 /* add_pictures@3x.png in Resources */,
+				AA09E40421B64DC600611CD9 /* ic_tab_wallet_pressed@3x.png in Resources */,
+				AA09E34A21B64DC600611CD9 /* ic_nav_search.png in Resources */,
+				AA09E3A821B64DC600611CD9 /* tag_vip@2x.png in Resources */,
+				AA09E39621B64DC600611CD9 /* ic_nav_back_white@2x.png in Resources */,
+				AA09E40821B64DC600611CD9 /* login_pic_02.png in Resources */,
+				AA09E2FC21B64DC600611CD9 /* ic_login_open_eye.png in Resources */,
+				AA09E3B021B64DC600611CD9 /* add_pictures@2x.png in Resources */,
+				AA09E37721B64DC600611CD9 /* 资讯内容.png in Resources */,
+				AA09E34121B64DC600611CD9 /* tag_indexes_down.png in Resources */,
+				AA09E32E21B64DC600611CD9 /* ic_login_area_next.png in Resources */,
+				AA09E39921B64DC600611CD9 /* ic_invisible@2x.png in Resources */,
+				AA09E42C21B64DC600611CD9 /* 手机注册.png in Resources */,
+				AA09E31E21B64DC600611CD9 /* ic_nav_k_line.png in Resources */,
+				AA09E3C921B64DC600611CD9 /* ic_nav_trading_record@3x.png in Resources */,
+				AA09E2F821B64DC600611CD9 /* ic_add.png in Resources */,
+				AA09E32A21B64DC600611CD9 /* ic_tab_deal_default.png in Resources */,
+				AA09E42E21B64DC600611CD9 /* 买入.png in Resources */,
+				AA09E44621B64DC600611CD9 /* 转出EOS.png in Resources */,
+				AA09E30721B64DC600611CD9 /* ic_tab_deal_pressed.png in Resources */,
+				AA09E34821B64DC600611CD9 /* ic_refresh_login.png in Resources */,
+				AA09E42321B64DC600611CD9 /* 29@2x.png in Resources */,
+				AA09E40921B64DC600611CD9 /* ic_center_payment@3x.png in Resources */,
+				AA09E37E21B64DC600611CD9 /* 法币_交易单.png in Resources */,
+				AA09E3A021B64DC600611CD9 /* ic_login_close@3x.png in Resources */,
+				AA09E3ED21B64DC600611CD9 /* referee_bg@2x.png in Resources */,
+				AA09E3D321B64DC600611CD9 /* ic_slide_login_pressed@3x.png in Resources */,
+				AA09E3DF21B64DC600611CD9 /* ic_login_check_pressed@2x.png in Resources */,
+				AA09E3D221B64DC600611CD9 /* ic_delete@2x.png in Resources */,
+				AA09E34E21B64DC600611CD9 /* update_title.png in Resources */,
+				AA09E2E321B64DC600611CD9 /* 法币_购买.png in Resources */,
+				AA09E3FD21B64DC600611CD9 /* login_pic_01.png in Resources */,
+				AA09E46021B64DC600611CD9 /* 法币_确认购买.png in Resources */,
+				AA09E33821B64DC600611CD9 /* ic_login_close.png in Resources */,
+				AA09E30B21B64DC600611CD9 /* ic_login_check_default.png in Resources */,
+				AA09E35521B64DC600611CD9 /* ic_scan.png in Resources */,
+				AA09E39121B64DC600611CD9 /* 公告内容.png in Resources */,
+				AA09E37821B64DC600611CD9 /* 资产.png in Resources */,
+				AA09E37321B64DC600611CD9 /* 登录.png in Resources */,
+				AA09E31F21B64DC600611CD9 /* tag_buy.png in Resources */,
+				AA09E3B521B64DC600611CD9 /* ic_scan@2x.png in Resources */,
+				AA09E39821B64DC600611CD9 /* ic_tab_home_pressed@3x.png in Resources */,
+				AA09E2F221B64DC600611CD9 /* ic_invisible.png in Resources */,
+				AA09E2D721B64DC600611CD9 /* 法币_选择币种.png in Resources */,
+				AA09E2E421B64DC600611CD9 /* 法币_确认购买.png in Resources */,
+				AA09E3BD21B64DC600611CD9 /* tag_corner_mark_pressed@3x.png in Resources */,
+				AA09E37521B64DC600611CD9 /* 公告.png in Resources */,
+				AA09E2D221B64DC600611CD9 /* 指纹验证.png in Resources */,
+				AA09E3D921B64DC600611CD9 /* ic_login_area_next@3x.png in Resources */,
+				AA09E38F21B64DC600611CD9 /* 邮箱注册_拼图验证.png in Resources */,
+				AA09E3AD21B64DC600611CD9 /* ic_nav_back_white@3x.png in Resources */,
+				AA09E2FE21B64DC600611CD9 /* ic_nav_home.png in Resources */,
+				AA09E3F221B64DC600611CD9 /* ic_refresh_login@2x.png in Resources */,
+				AA09E40F21B64DC600611CD9 /* btn_id_rear@2x.png in Resources */,
+				AA09E44B21B64DC600611CD9 /* 法币_选择币种.png in Resources */,
+				AA09E37A21B64DC600611CD9 /* 成交明细.png in Resources */,
+				AA09E38721B64DC600611CD9 /* 账单.png in Resources */,
+				AA09E3EF21B64DC600611CD9 /* ic_center_rebates@2x.png in Resources */,
+				AA09E2FF21B64DC600611CD9 /* tag_indexes_up.png in Resources */,
+				AA09E2F121B64DC600611CD9 /* nav_logo.png in Resources */,
+				AA09E43021B64DC600611CD9 /* 发布交易-我要购买.png in Resources */,
+				AA09E3DB21B64DC600611CD9 /* ic_home_trumpet@2x.png in Resources */,
+				AA09E3BC21B64DC600611CD9 /* tag_indexes_down@3x.png in Resources */,
+				AA09E2CF21B64DC600611CD9 /* 推荐返佣.png in Resources */,
+				AA09E42821B64DC600611CD9 /* 关于我们.png in Resources */,
+				AA09E35021B64DC600611CD9 /* ic_visible.png in Resources */,
+				AA09E33521B64DC600611CD9 /* referee_bg.png in Resources */,
+				AA09E43421B64DC600611CD9 /* 交易记录_未完成.png in Resources */,
+				AA09E3E921B64DC600611CD9 /* ic_logo_about@3x.png in Resources */,
+				AA09E2DF21B64DC600611CD9 /* K线图.png in Resources */,
+				AA09E43B21B64DC600611CD9 /* 资产.png in Resources */,
+				AA09E2D921B64DC600611CD9 /* 行情交易.png in Resources */,
+				AA09E2D521B64DC600611CD9 /* 安全验证.png in Resources */,
+				AA09E40A21B64DC600611CD9 /* ic_home_nav_logo@3x.png in Resources */,
+				AA09E40B21B64DC600611CD9 /* ic_home_nav_logo@2x.png in Resources */,
+				AA09E35621B64DC600611CD9 /* ic_logo_about.png in Resources */,
+				AA09E42F21B64DC600611CD9 /* 实名认证.png in Resources */,
+				AA09E42B21B64DC600611CD9 /* 卖家订单详情-交易完成.png in Resources */,
+				AA09E2CA21B64DC600611CD9 /* 交易记录_未完成.png in Resources */,
+				AA09E30821B64DC600611CD9 /* add_pictures.png in Resources */,
+				AA09E3C721B64DC600611CD9 /* slide_bar_pressed@2x.png in Resources */,
+				AA09E40D21B64DC600611CD9 /* tag_buy@2x.png in Resources */,
+				AA09E44F21B64DC600611CD9 /* 邮箱注册.png in Resources */,
+				AA09E41521B64DC600611CD9 /* ic_login_open_eye@2x.png in Resources */,
+				AA09E44021B64DC600611CD9 /* 成交明细.png in Resources */,
+				AA09E2E821B64DC600611CD9 /* ic_login_close_eye.png in Resources */,
+				AA09E34321B64DC600611CD9 /* ic_tab_home_default.png in Resources */,
+				AA09E40021B64DC600611CD9 /* ic_login_check_default@3x.png in Resources */,
+				AA09E44C21B64DC600611CD9 /* 买家订单详情-交易取消.png in Resources */,
+				AA09E3EC21B64DC600611CD9 /* tag_bank_card@3x.png in Resources */,
+				AA09E43321B64DC600611CD9 /* 登录.png in Resources */,
+				AA09E2DA21B64DC600611CD9 /* 安全中心.png in Resources */,
+				AA09E3B321B64DC600611CD9 /* ic_visible@3x.png in Resources */,
+				AA09E31221B64DC600611CD9 /* ic_visible.png in Resources */,
+				AA09E33221B64DC600611CD9 /* ic_tab_legal_tender_pressed.png in Resources */,
+				AA09E38221B64DC600611CD9 /* 当前委托.png in Resources */,
+				AA09E3FE21B64DC600611CD9 /* ic_login_open_eye@3x.png in Resources */,
+				AA09E3CF21B64DC600611CD9 /* nav_logo@2x.png in Resources */,
+				AA09E3E521B64DC600611CD9 /* ic_center_rebates@3x.png in Resources */,
+				AA09E35321B64DC600611CD9 /* ic_delete_coin.png in Resources */,
+				AA09E37121B64DC600611CD9 /* 实名认证.png in Resources */,
+				AA09E30421B64DC600611CD9 /* tag_wechat_pay.png in Resources */,
+				AA09E31521B64DC600611CD9 /* ic_delete_coin.png in Resources */,
+				AA09E3C221B64DC600611CD9 /* slide_bar_pressed@3x.png in Resources */,
+				AA09E2F021B64DC600611CD9 /* ic_login_area_next.png in Resources */,
+				AA09E33321B64DC600611CD9 /* btn_id_front.png in Resources */,
+				AA09E3F821B64DC600611CD9 /* ic_login_area_next@2x.png in Resources */,
+				AA09E2C521B64DC600611CD9 /* 关于我们.png in Resources */,
+				AA09E38021B64DC600611CD9 /* 搜索.png in Resources */,
+				AA09E33021B64DC600611CD9 /* ic_invisible.png in Resources */,
+				AA09E2E521B64DC600611CD9 /* 邮箱注册_拼图验证.png in Resources */,
+				AA09E3AC21B64DC600611CD9 /* ic_tab_home_pressed@2x.png in Resources */,
+				AA09E2E021B64DC600611CD9 /* 返佣记录.png in Resources */,
+				AA09E39021B64DC600611CD9 /* 资讯.png in Resources */,
+				AA09E41D21B64DC600611CD9 /* 640x1136.png in Resources */,
+				AA09E3BA21B64DC600611CD9 /* ic_delete_coin@3x.png in Resources */,
+				AA09E3AB21B64DC600611CD9 /* ic_tab_deal_pressed@3x.png in Resources */,
+				AA09E43E21B64DC600611CD9 /* 推荐返佣.png in Resources */,
+				AA09E45E21B64DC600611CD9 /* 首页.png in Resources */,
+				AA09E34621B64DC600611CD9 /* add_pictures.png in Resources */,
+				AA09E3F421B64DC600611CD9 /* ic_login_check_pressed@3x.png in Resources */,
+				AA09E36021B64DC600611CD9 /* ic_center_about.png in Resources */,
+				AA09E34021B64DC600611CD9 /* ic_delete.png in Resources */,
+				AA09E38121B64DC600611CD9 /* 法币_选择币种.png in Resources */,
+				AA09E40221B64DC600611CD9 /* login_pic_03.png in Resources */,
+				AA09E43C21B64DC600611CD9 /* 法币_确认出售.png in Resources */,
+				AA09E2CB21B64DC600611CD9 /* 公告.png in Resources */,
+				AA09E38921B64DC600611CD9 /* K线图.png in Resources */,
+				AA09E35C21B64DC600611CD9 /* ic_nav_k_line.png in Resources */,
+				AA09E2C821B64DC600611CD9 /* 我要申诉.png in Resources */,
+				AA09E33421B64DC600611CD9 /* ic_home_trumpet.png in Resources */,
+				AA09E39D21B64DC600611CD9 /* ic_nav_search@2x.png in Resources */,
+				AA09E42521B64DC600611CD9 /* 60@2x.png in Resources */,
+				AA09E38E21B64DC600611CD9 /* 法币_确认购买.png in Resources */,
+				AA09E3A221B64DC600611CD9 /* ic_login_close@2x.png in Resources */,
+				AA09E3E421B64DC600611CD9 /* ic_audit_succeed@2x.png in Resources */,
+				AA09E2E221B64DC600611CD9 /* 我的.png in Resources */,
+				AA09E2D621B64DC600611CD9 /* 搜索.png in Resources */,
+				AA09E2DD21B64DC600611CD9 /* 账单.png in Resources */,
+				AA09E36A21B64DC600611CD9 /* 1080x1920.png in Resources */,
+				AA09E43721B64DC600611CD9 /* 修改绑定邮箱-2.png in Resources */,
+				AA09E45A21B64DC600611CD9 /* 卖家订单详情-对方已支付.png in Resources */,
+				AA09E38821B64DC600611CD9 /* 卖家订单详情-对方已支付.png in Resources */,
+				AA09E39321B64DC600611CD9 /* ic_center_about@2x.png in Resources */,
+				AA09E40721B64DC600611CD9 /* tag_buy@3x.png in Resources */,
+				AA09E33A21B64DC600611CD9 /* ic_login_open_eye.png in Resources */,
+				AA09E42121B64DC600611CD9 /* 20@2x.png in Resources */,
+				AA09E3E221B64DC600611CD9 /* ic_tab_wallet_default@2x.png in Resources */,
+				AA09E3B421B64DC600611CD9 /* face_id@3x.png in Resources */,
+				AA09E46221B64DC600611CD9 /* 资讯.png in Resources */,
+				AA09E3C321B64DC600611CD9 /* tag_alipay@3x.png in Resources */,
+				AA09E42921B64DC600611CD9 /* 买家订单详情-交易完成.png in Resources */,
+				AA09E44321B64DC600611CD9 /* 历史委托.png in Resources */,
+				AA09E41021B64DC600611CD9 /* ic_tab_wallet_pressed@2x.png in Resources */,
+				AA09E45521B64DC600611CD9 /* 发布交易-我要出售.png in Resources */,
+				AA09E36321B64DC600611CD9 /* ic_center_rebates.png in Resources */,
+				AA09E3FB21B64DC600611CD9 /* tag_sale@3x.png in Resources */,
+				AA09E3D521B64DC600611CD9 /* ic_scan@3x.png in Resources */,
+				AA09E36B21B64DC600611CD9 /* 144x144.png in Resources */,
+				AA09E2D321B64DC600611CD9 /* 历史委托.png in Resources */,
+				AA09E31A21B64DC600611CD9 /* ic_tab_wallet_pressed.png in Resources */,
+				AA09E31D21B64DC600611CD9 /* ic_slide_login.png in Resources */,
+				AA09E41C21B64DC600611CD9 /* 750x1334.png in Resources */,
+				AA09E35A21B64DC600611CD9 /* wallet-bg.png in Resources */,
+				AA09E38B21B64DC600611CD9 /* 首页.png in Resources */,
+				AA09E30021B64DC600611CD9 /* face_id.png in Resources */,
+				AA09E3E821B64DC600611CD9 /* ic_nav_back_black@2x.png in Resources */,
+				AA09E30221B64DC600611CD9 /* ic_delete.png in Resources */,
+				AA09E3D821B64DC600611CD9 /* tag_sale@2x.png in Resources */,
+				AA09E33B21B64DC600611CD9 /* ic_tab_legal_tender_default.png in Resources */,
+				AA09E45D21B64DC600611CD9 /* 卖家订单详情-违规.png in Resources */,
+				AA09E32F21B64DC600611CD9 /* nav_logo.png in Resources */,
+				AA09E3F921B64DC600611CD9 /* nav_tag_corner_mark@3x.png in Resources */,
+				AA09E2FA21B64DC600611CD9 /* ic_login_close.png in Resources */,
+				AA09E40E21B64DC600611CD9 /* ic_slide_login@2x.png in Resources */,
+				AA09E3DC21B64DC600611CD9 /* ic_center_notice@3x.png in Resources */,
+				AA09E35421B64DC600611CD9 /* ic_nav_trading_record.png in Resources */,
+				AA09E35221B64DC600611CD9 /* ic_center_payment.png in Resources */,
+				AA09E36C21B64DC600611CD9 /* 72x72.png in Resources */,
+				AA09E45321B64DC600611CD9 /* 交易记录_已完成.png in Resources */,
+				AA09E32721B64DC600611CD9 /* ic_tab_mine_default.png in Resources */,
+				AA09E32021B64DC600611CD9 /* btn_id_front_sign.png in Resources */,
+				AA09E3EA21B64DC600611CD9 /* ic_nav_back_black@3x.png in Resources */,
+				AA09E45221B64DC600611CD9 /* 修改绑定邮箱.png in Resources */,
+				AA09E41721B64DC600611CD9 /* ic_add@3x.png in Resources */,
+				AA09E44521B64DC600611CD9 /* 我的-未登录.png in Resources */,
+				AA09E36221B64DC600611CD9 /* ic_center_security.png in Resources */,
+				AA09E41321B64DC600611CD9 /* ic_nav_home@3x.png in Resources */,
+				AA09E45721B64DC600611CD9 /* 买家订单详情-待支付2.png in Resources */,
+				AA09E40321B64DC600611CD9 /* ic_login_close_eye@2x.png in Resources */,
+				AA09E33D21B64DC600611CD9 /* tag_indexes_up.png in Resources */,
+				AA09E39721B64DC600611CD9 /* ic_tab_deal_pressed@2x.png in Resources */,
+				AA09E2D021B64DC600611CD9 /* 成交明细.png in Resources */,
+				AA09E3C621B64DC600611CD9 /* tag_alipay@2x.png in Resources */,
+				AA09E31B21B64DC600611CD9 /* tag_alipay.png in Resources */,
+				AA09E43621B64DC600611CD9 /* 公告.png in Resources */,
+				AA09E34C21B64DC600611CD9 /* ic_search_coin.png in Resources */,
+				AA09E31421B64DC600611CD9 /* ic_center_payment.png in Resources */,
+				AA09E41F21B64DC600611CD9 /* 1024@1x.png in Resources */,
+				AA09E30621B64DC600611CD9 /* tag_corner_mark_pressed.png in Resources */,
+				AA09E2C721B64DC600611CD9 /* 实名认证.png in Resources */,
+				AA09E40121B64DC600611CD9 /* ic_center_security@2x.png in Resources */,
+				AA09E33E21B64DC600611CD9 /* face_id.png in Resources */,
+				AA09E41421B64DC600611CD9 /* ic_login_check_default@2x.png in Resources */,
+				AA09E34721B64DC600611CD9 /* tag_bank_card.png in Resources */,
+				AA09E3E621B64DC600611CD9 /* referee_bg@3x.png in Resources */,
+				AA09E37F21B64DC600611CD9 /* 安全验证.png in Resources */,
+				AA09E34221B64DC600611CD9 /* tag_wechat_pay.png in Resources */,
+				AA09E39F21B64DC600611CD9 /* ic_search_coin@2x.png in Resources */,
+				AA09E3E321B64DC600611CD9 /* ic_nav_k_line@2x.png in Resources */,
+				AA09E3A621B64DC600611CD9 /* ic_tab_mine_pressed@2x.png in Resources */,
+				AA09E45F21B64DC600611CD9 /* 法币_购买.png in Resources */,
+				AA09E32221B64DC600611CD9 /* ic_center_about.png in Resources */,
+				AA09E41121B64DC600611CD9 /* ic_login_close_eye@3x.png in Resources */,
+				AA09E30321B64DC600611CD9 /* tag_indexes_down.png in Resources */,
+				AA09E37D21B64DC600611CD9 /* 历史委托.png in Resources */,
+				AA09E31621B64DC600611CD9 /* ic_nav_trading_record.png in Resources */,
+				AA09E3C021B64DC600611CD9 /* ic_tab_legal_tender_pressed@3x.png in Resources */,
+				AA09E3DA21B64DC600611CD9 /* nav_tag_corner_mark@2x.png in Resources */,
+				AA09E43521B64DC600611CD9 /* 买家订单详情-待支付.png in Resources */,
+				AA09E38421B64DC600611CD9 /* 安全中心.png in Resources */,
+				AA09E44921B64DC600611CD9 /* 安全验证.png in Resources */,
+				AA09E2FB21B64DC600611CD9 /* ic_center_notice.png in Resources */,
+				AA09E43221B64DC600611CD9 /* 我要申诉.png in Resources */,
+				AA09E38C21B64DC600611CD9 /* 我的.png in Resources */,
+				AA09E41821B64DC600611CD9 /* login_pic_04.png in Resources */,
+				AA09E37621B64DC600611CD9 /* 修改绑定邮箱-2.png in Resources */,
+				AA09E2EC21B64DC600611CD9 /* ic_tab_deal_default.png in Resources */,
+				AA09E3B821B64DC600611CD9 /* ic_tab_deal_default@3x.png in Resources */,
+				AA09E3E721B64DC600611CD9 /* tag_bank_card@2x.png in Resources */,
+				AA09E34921B64DC600611CD9 /* ic_login_check_default.png in Resources */,
+				AA09E35121B64DC600611CD9 /* ic_tab_wallet_default.png in Resources */,
+				AA09E3B921B64DC600611CD9 /* ic_tab_home_default@2x.png in Resources */,
 				AA09E0F021B64DA800611CD9 /* Assets.xcassets in Resources */,
+				AA09E2EB21B64DC600611CD9 /* tag_vip.png in Resources */,
+				AA09E3BF21B64DC600611CD9 /* ic_tab_mine_default@2x.png in Resources */,
+				AA09E42621B64DC600611CD9 /* 40@2x.png in Resources */,
+				AA09E3FC21B64DC600611CD9 /* ic_add@2x.png in Resources */,
+				AA09E3DE21B64DC600611CD9 /* tag_green@2x.png in Resources */,
+				AA09E30E21B64DC600611CD9 /* ic_search_coin.png in Resources */,
+				AA09E32D21B64DC600611CD9 /* ic_tab_home_pressed.png in Resources */,
+				AA09E36E21B64DC600611CD9 /* 512x512.png in Resources */,
+				AA09E3CD21B64DC600611CD9 /* tag_indexes_down@2x.png in Resources */,
+				AA09E2E721B64DC600611CD9 /* 公告内容.png in Resources */,
+				AA09E33621B64DC600611CD9 /* ic_add.png in Resources */,
+				AA09E35F21B64DC600611CD9 /* ic_login_check_pressed.png in Resources */,
+				AA09E31321B64DC600611CD9 /* ic_tab_wallet_default.png in Resources */,
+				AA09E45C21B64DC600611CD9 /* 返佣记录.png in Resources */,
+				AA09E41221B64DC600611CD9 /* ic_center_security@3x.png in Resources */,
+				AA09E3FA21B64DC600611CD9 /* ic_home_trumpet@3x.png in Resources */,
+				AA09E32B21B64DC600611CD9 /* tag_corner_mark_default.png in Resources */,
+				AA09E2DC21B64DC600611CD9 /* 发布交易-我要出售.png in Resources */,
+				AA09E39E21B64DC600611CD9 /* ic_tab_legal_tender_default@2x.png in Resources */,
+				AA09E30F21B64DC600611CD9 /* ic_audit_succeed.png in Resources */,
+				AA09E3E121B64DC600611CD9 /* ic_refresh_login@3x.png in Resources */,
+				AA09E30C21B64DC600611CD9 /* ic_nav_search.png in Resources */,
+				AA09E35921B64DC600611CD9 /* tag_alipay.png in Resources */,
+				AA09E45821B64DC600611CD9 /* 账单.png in Resources */,
+				AA09E3FF21B64DC600611CD9 /* ic_nav_home@2x.png in Resources */,
+				AA09E33721B64DC600611CD9 /* btn_id_rear.png in Resources */,
+				AA09E3E021B64DC600611CD9 /* wallet-bg@2x.png in Resources */,
+				AA09E3D721B64DC600611CD9 /* btn_id_front@2x.png in Resources */,
+				AA09E43121B64DC600611CD9 /* 交易记录_已取消.png in Resources */,
+				AA09E45921B64DC600611CD9 /* 转入EOS.png in Resources */,
+				AA09E32621B64DC600611CD9 /* ic_login_close_eye.png in Resources */,
+				AA09E32521B64DC600611CD9 /* ic_center_rebates.png in Resources */,
+				AA09E31821B64DC600611CD9 /* ic_logo_about.png in Resources */,
+				AA09E3F521B64DC600611CD9 /* tag_green@3x.png in Resources */,
+				AA09E2DE21B64DC600611CD9 /* 卖家订单详情-对方已支付.png in Resources */,
+				AA09E35B21B64DC600611CD9 /* ic_slide_login.png in Resources */,
+				AA09E36821B64DC600611CD9 /* login_pic_04.jpg in Resources */,
 				AA09E0EE21B64DA700611CD9 /* Main.storyboard in Resources */,
+				AA09E44721B64DC600611CD9 /* 忘记邮箱密码.png in Resources */,
+				AA09E2D421B64DC600611CD9 /* 法币_交易单.png in Resources */,
+				AA09E31721B64DC600611CD9 /* ic_scan.png in Resources */,
+				AA09E3D121B64DC600611CD9 /* ic_tab_home_default@3x.png in Resources */,
+				AA09E36D21B64DC600611CD9 /* 96x96.png in Resources */,
+				AA09E2F721B64DC600611CD9 /* referee_bg.png in Resources */,
+				AA09E36421B64DC600611CD9 /* login_pic_01.jpg in Resources */,
+				AA09E39A21B64DC600611CD9 /* tag_corner_mark_default@2x.png in Resources */,
+				AA09E43921B64DC600611CD9 /* 卖出.png in Resources */,
+				AA09E3AF21B64DC600611CD9 /* tag_indexes_up@2x.png in Resources */,
+				AA09E36521B64DC600611CD9 /* login_pic_03.jpg in Resources */,
+				AA09E44D21B64DC600611CD9 /* 当前委托.png in Resources */,
+				AA09E35821B64DC600611CD9 /* ic_tab_wallet_pressed.png in Resources */,
+				AA09E3F321B64DC600611CD9 /* wallet-bg@3x.png in Resources */,
+				AA09E45621B64DC600611CD9 /* 提币.png in Resources */,
+				AA09E46321B64DC600611CD9 /* 公告内容.png in Resources */,
+				AA09E45021B64DC600611CD9 /* 安全中心.png in Resources */,
+				AA09E38A21B64DC600611CD9 /* 返佣记录.png in Resources */,
+				AA09E45121B64DC600611CD9 /* 发布结果.png in Resources */,
+				AA09E33C21B64DC600611CD9 /* ic_nav_home.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
